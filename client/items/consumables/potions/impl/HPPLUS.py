@@ -1,4 +1,4 @@
-from entities.impl.Consumable import Consumable
+from client.entities.impl.Consumable import Consumable
 
 class HPPlus(Consumable):
     def __init__(self, x, y):

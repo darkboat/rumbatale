@@ -1,4 +1,4 @@
-from entities.impl.Consumable import Consumable
+from client.entities.impl.Consumable import Consumable
 
 
 class Potion(Consumable):

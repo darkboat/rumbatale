@@ -1,4 +1,4 @@
-from items.consumables.potions.StatBoostPotion import StatBoostPotion
+from client.items.consumables.potions.StatBoostPotion import StatBoostPotion
 
 class SpeedPotion(StatBoostPotion):
     def __init__(self, x, y):

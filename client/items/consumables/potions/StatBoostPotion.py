@@ -1,6 +1,6 @@
-from items.consumables.potions.Potion import Potion
+from client.items.consumables.potions.Potion import Potion
 
-import globals
+from client.globals import globals
 
 class StatBoostPotion(Potion):
     def __init__(self, name, x, y):
