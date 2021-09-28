@@ -1,14 +1,11 @@
-from entities.impl.Player import Player
-from event.impl.PlayerMoveEvent import PlayerMoveEvent
-import bindings
-from globals import globals
-import conf
+from client.entities.impl.Player import Player
+from client.event.impl.PlayerMoveEvent import PlayerMoveEvent
+import client.bindings as bindings
+import client.conf as conf
 
-import pygame
+from client.guis.impl.GUIIngame import GUIIngame
 
-from guis.impl.GUIIngame import GUIIngame
-
-import client_globals as cGlobals
+import client.client_globals as cGlobals
 
 
 def handleMovement(entity, keys, room, guimanager):
