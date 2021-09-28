@@ -1,4 +1,4 @@
-from event.EventManager import eventmanager
+from client.event.EventManager import eventmanager
 
 class Event:
     def __init__(self, child):

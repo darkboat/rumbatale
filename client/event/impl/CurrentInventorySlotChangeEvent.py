@@ -1,6 +1,4 @@
-from event.Event import Event
-
-from globals import globals
+from client.event.Event import Event
 
 class CurrentInventorySlotChangeEvent(Event):
     def __init__(self):

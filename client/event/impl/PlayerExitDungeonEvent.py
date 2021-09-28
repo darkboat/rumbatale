@@ -1,12 +1,8 @@
-from items.keys.Key import Key
-from rooms.impl.tutorial import Tutorial
-from rooms.RoomManager import roommanager
-from event.Event import Event
+from client.rooms.RoomManager import roommanager
+from client.event.Event import Event
 
-from items.keys.impl.red import RedKey
-
-from globals import globals
-import client_globals as cGlobals
+from client.globals import globals
+import client.client_globals as cGlobals
 
 class PlayerExitDungeonEvent(Event):
     def __init__(self):

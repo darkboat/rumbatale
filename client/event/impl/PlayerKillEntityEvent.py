@@ -1,8 +1,4 @@
-from event.Event import Event
-
-import random
-
-import globals
+from client.event.Event import Event
 
 class PlayerKillEntityEvent(Event):
     def __init__(self):

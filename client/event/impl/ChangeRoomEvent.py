@@ -1,4 +1,4 @@
-from event.Event import Event
+from client.event.Event import Event
 
 class ChangeRoomEvent(Event):
     def __init__(self):

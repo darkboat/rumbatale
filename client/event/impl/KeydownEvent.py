@@ -1,10 +1,9 @@
-from event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
-from guis.impl.GUIIngame import GUIIngame
+from client.event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
+from client.guis.impl.GUIIngame import GUIIngame
 import pygame
-from entities.impl.Consumable import Consumable
-from rooms.impl.tutorial import Tutorial
-from rooms.RoomManager import roommanager
-from event.Event import Event
+from client.entities.impl.Consumable import Consumable
+from client.rooms.RoomManager import roommanager
+from client.event.Event import Event
 
 import bindings
 from globals import globals

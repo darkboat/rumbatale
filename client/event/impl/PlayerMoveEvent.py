@@ -1,4 +1,4 @@
-from event.Event import Event
+from client.event.Event import Event
 
 class PlayerMoveEvent(Event):
     def __init__(self):

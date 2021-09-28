@@ -1,10 +1,7 @@
-from event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
-import pygame
-from event.Event import Event
-
-import bindings
-from globals import globals
-import conf
+from client.event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
+from client.event.Event import Event
+from client.globals import globals
+import client.conf as conf
 
 class MouseDownEvent(Event):
     def __init__(self):
