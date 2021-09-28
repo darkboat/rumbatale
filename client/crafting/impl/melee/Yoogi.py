@@ -1,7 +1,7 @@
-from crafting.Craftable import Craftable
+from client.crafting.Craftable import Craftable
 
 
-import items.weapons.impl.melee as weapons
+import client.items.weapons.impl.melee as weapons
 
 class Yoogi(Craftable):
     def __init__(self, craftingmanager):
