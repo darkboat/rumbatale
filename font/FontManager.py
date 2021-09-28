@@ -1,4 +1,4 @@
-from conf import FONT_DIR
+from client.conf import FONT_DIR
 import pygame
 
 class FontManager:
