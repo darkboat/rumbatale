@@ -1,6 +1,6 @@
-from event.impl.ChangeRoomEvent import ChangeRoomEvent
+from client.event.impl.ChangeRoomEvent import ChangeRoomEvent
 
-from globals import globals
+from client.globals import globals
 
 class RoomManager:
     def __init__(self):

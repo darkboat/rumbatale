@@ -1,16 +1,15 @@
-from items.weapons.impl.melee.Yoogi import Yoogi
-from enemies.Crawler import Crawler
-from items.keys.impl.red import RedKey
-from entities.impl.DungeonExit import DungeonExit
-from rooms.Room import Room
+from client.enemies.Crawler import Crawler
+from client.items.keys.impl.red import RedKey
+from client.entities.impl.DungeonExit import DungeonExit
+from client.rooms.Room import Room
 
 import random
 
 # Conf
-import conf
+import client.conf as conf
 
 # Entities
-from entities.impl.Ref import Ref
+from client.entities.impl.Ref import Ref
 
 class StarGrove(Room):
     def __init__(self):

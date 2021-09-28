@@ -1,21 +1,20 @@
-from items.weapons.impl.melee.RottenSword import RottenSword
-from items.consumables.potions.impl.Invincibility import Invincibility
-from items.consumables.potions.impl.StengthPLUS import StrengthPotion
-from items.weapons.impl.melee.Scythe import Scythe
-from enemies.Crawler import Crawler
-from items.keys.impl.red import RedKey
-from entities.impl.DungeonExit import DungeonExit
-from rooms.Room import Room
-from items.enchantments.impl.Inferno import Inferno
+from client.items.consumables.potions.impl.Invincibility import Invincibility
+from client.items.consumables.potions.impl.StengthPLUS import StrengthPotion
+from client.items.weapons.impl.melee.Scythe import Scythe
+from client.enemies.Crawler import Crawler
+from client.items.keys.impl.red import RedKey
+from client.entities.impl.DungeonExit import DungeonExit
+from client.rooms.Room import Room
+from client.items.enchantments.impl.Inferno import Inferno
 
 # Conf
-import conf
+import client.conf as conf
 
 # Entities
-from entities.impl.Ref import Ref
+from client.entities.impl.Ref import Ref
 
-from items.consumables.potions.impl.HPPLUS import HPPlus
-from items.consumables.potions.impl.SpeedPLUS import SpeedPotion
+from client.items.consumables.potions.impl.HPPLUS import HPPlus
+from client.items.consumables.potions.impl.SpeedPLUS import SpeedPotion
 
 class Tutorial(Room):
 

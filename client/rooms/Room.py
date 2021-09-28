@@ -1,12 +1,7 @@
-from ui.MiniMap import MiniMap
-from rooms.RoomManager import roommanager
+from client.ui.MiniMap import MiniMap
+from client.rooms.RoomManager import roommanager
 
-from entities.impl.Tile import Tile
-
-from math import ceil
-
-from globals import globals
-import conf
+from client.globals import globals
 
 class Room:
     def __init__(self, walls, items, enemies, child, exitKey):
