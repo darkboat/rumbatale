@@ -331,17 +331,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'crafting.CraftingManager'"></a>
-  <a target="code" href="" type="text/plain"><tt>'crafting.CraftingManager'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="'entities.EntityLiving'"></a>
   <a target="code" href="" type="text/plain"><tt>'entities.EntityLiving'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -369,6 +358,7 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+ &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#main.py">main.py</a>
 
   </div>
@@ -395,7 +385,7 @@ imported by:
 imported by:
     <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
- &#8226;   <a href="#client.rooms.RoomManager">client.rooms.RoomManager</a>
+ &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
 
   </div>
 
@@ -408,17 +398,6 @@ imported by:
 imported by:
     <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#client.guis.GuiManager">client.guis.GuiManager</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'items.ItemManager'"></a>
-  <a target="code" href="" type="text/plain"><tt>'items.ItemManager'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
 
   </div>
 
@@ -441,8 +420,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>'items.weapons'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.crafting.impl.melee.Yoogi">client.crafting.impl.melee.Yoogi</a>
- &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
 
   </div>
 
@@ -465,7 +443,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>'org.python'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#copy">copy</a>
+    <a href="#pickle">pickle</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
 
   </div>
@@ -548,40 +526,17 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
- &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
 
   </div>
 
 </div>
 
 <div class="node">
-  <a name="'ui.Button'"></a>
-  <a target="code" href="" type="text/plain"><tt>'ui.Button'</tt></a>
+  <a name="'skills.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'skills.impl'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'ui.TextInput'"></a>
-  <a target="code" href="" type="text/plain"><tt>'ui.TextInput'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'ui.TextView'"></a>
-  <a target="code" href="" type="text/plain"><tt>'ui.TextView'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
 
@@ -1724,6 +1679,17 @@ imported by:
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#setuptools._vendor.packaging.specifiers">setuptools._vendor.packaging.specifiers</a>
  &#8226;   <a href="#typing">typing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ability"></a>
+  <a target="code" href="" type="text/plain"><tt>ability</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
 
   </div>
 
@@ -2893,12 +2859,167 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/__init__.py" type="text/plain"><tt>client</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imported by:
-    <a href="#client.conf">client.conf</a>
+    <a href="#client.ability">client.ability</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#client.crafting">client.crafting</a>
  &#8226;   <a href="#client.entities">client.entities</a>
  &#8226;   <a href="#client.event">client.event</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
  &#8226;   <a href="#client.guis">client.guis</a>
+ &#8226;   <a href="#client.items">client.items</a>
  &#8226;   <a href="#client.rooms">client.rooms</a>
+ &#8226;   <a href="#client.skills">client.skills</a>
+ &#8226;   <a href="#client.ui">client.ui</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.ability</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ability.Ability">client.ability.Ability</a>
+ &#8226;   <a href="#client.ability.TimedPropertyChange">client.ability.TimedPropertyChange</a>
+ &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.Ability"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/Ability.py" type="text/plain"><tt>client.ability.Ability</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability">client.ability</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ability.impl.Berserker">client.ability.impl.Berserker</a>
+ &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.TimedPropertyChange"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/TimedPropertyChange.py" type="text/plain"><tt>client.ability.TimedPropertyChange</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability">client.ability</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ability.impl.Berserker">client.ability.impl.Berserker</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.impl"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.ability.impl</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.ability">client.ability</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ability.impl.Berserker">client.ability.impl.Berserker</a>
+ &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.impl.Berserker"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/impl/Berserker.py" type="text/plain"><tt>client.ability.impl.Berserker</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability.Ability">client.ability.Ability</a>
+ &#8226;   <a href="#client.ability.TimedPropertyChange">client.ability.TimedPropertyChange</a>
+ &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.impl.LifeSteal"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/impl/LifeSteal.py" type="text/plain"><tt>client.ability.impl.LifeSteal</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability.Ability">client.ability.Ability</a>
+ &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
+ &#8226;   <a href="#client_globals">client_globals</a>
+ &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.impl.Reap"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/impl/Reap.py" type="text/plain"><tt>client.ability.impl.Reap</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability.Ability">client.ability.Ability</a>
+ &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
+ &#8226;   <a href="#client_globals">client_globals</a>
+ &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ability.impl.Shock"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/impl/Shock.py" type="text/plain"><tt>client.ability.impl.Shock</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ability">ability</a>
+ &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
+ &#8226;   <a href="#client_globals">client_globals</a>
+ &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
 
   </div>
 
@@ -2915,7 +3036,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#font.FontManager">font.FontManager</a>
+    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+ &#8226;   <a href="#font.FontManager">font.FontManager</a>
 
   </div>
 
@@ -2948,7 +3070,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#main.py">main.py</a>
+    <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
+ &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -2991,9 +3114,9 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/crafting/impl/melee/Yoogi.py" type="text/plain"><tt>client.crafting.impl.melee.Yoogi</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'items.weapons'">'items.weapons'</a>
- &#8226;   <a href="#client.crafting.impl.melee">client.crafting.impl.melee</a>
+    <a href="#client.crafting.impl.melee">client.crafting.impl.melee</a>
  &#8226;   <a href="#crafting">crafting</a>
+ &#8226;   <a href="#items">items</a>
 
   </div>
   <div class="import">
@@ -3014,7 +3137,26 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl">client.entities.impl</a>
+    <a href="#client.entities.StatBuilder">client.entities.StatBuilder</a>
+ &#8226;   <a href="#client.entities.impl">client.entities.impl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.entities.StatBuilder"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/entities/StatBuilder.py" type="text/plain"><tt>client.entities.StatBuilder</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities">client.entities</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.RottenSword">client.items.weapons.impl.melee.RottenSword</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Yoogi">client.items.weapons.impl.melee.Yoogi</a>
 
   </div>
 
@@ -3030,7 +3172,29 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.entities.impl.Item"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/entities/impl/Item.py" type="text/plain"><tt>client.entities.impl.Item</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities.impl">client.entities.impl</a>
+ &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#entities">entities</a>
+ &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#pygame">pygame</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.enchantments.Enchantment">client.items.enchantments.Enchantment</a>
+ &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
 
   </div>
 
@@ -3048,13 +3212,13 @@ imports:
  &#8226;   <a href="#'items.keys'">'items.keys'</a>
  &#8226;   <a href="#'items.weapons'">'items.weapons'</a>
  &#8226;   <a href="#'skills.SkillsManager'">'skills.SkillsManager'</a>
- &#8226;   <a href="#'ui.TextView'">'ui.TextView'</a>
  &#8226;   <a href="#client.entities.impl">client.entities.impl</a>
  &#8226;   <a href="#client_globals">client_globals</a>
  &#8226;   <a href="#conf">conf</a>
  &#8226;   <a href="#globals">globals</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#ui">ui</a>
 
   </div>
   <div class="import">
@@ -3104,14 +3268,14 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/event/impl/KeydownEvent.py" type="text/plain"><tt>client.event.impl.KeydownEvent</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'event.Event'">'event.Event'</a>
+    <a href="#'entities.impl'">'entities.impl'</a>
+ &#8226;   <a href="#'event.Event'">'event.Event'</a>
  &#8226;   <a href="#'event.impl'">'event.impl'</a>
  &#8226;   <a href="#'guis.impl'">'guis.impl'</a>
  &#8226;   <a href="#'rooms.RoomManager'">'rooms.RoomManager'</a>
  &#8226;   <a href="#'rooms.impl'">'rooms.impl'</a>
  &#8226;   <a href="#bindings">bindings</a>
  &#8226;   <a href="#client.event.impl">client.event.impl</a>
- &#8226;   <a href="#entities">entities</a>
  &#8226;   <a href="#globals">globals</a>
  &#8226;   <a href="#pygame">pygame</a>
 
@@ -3130,10 +3294,10 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'event.Event'">'event.Event'</a>
+ &#8226;   <a href="#'event.impl'">'event.impl'</a>
  &#8226;   <a href="#bindings">bindings</a>
  &#8226;   <a href="#client.event.impl">client.event.impl</a>
  &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#event">event</a>
  &#8226;   <a href="#globals">globals</a>
  &#8226;   <a href="#pygame">pygame</a>
 
@@ -3163,6 +3327,23 @@ imports:
   <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.globals"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/globals.py" type="text/plain"><tt>client.globals</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+ &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
 
   </div>
 
@@ -3247,13 +3428,10 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/guis/impl/GUICraftingMenu.py" type="text/plain"><tt>client.guis.impl.GUICraftingMenu</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'crafting.CraftingManager'">'crafting.CraftingManager'</a>
- &#8226;   <a href="#'ui.TextInput'">'ui.TextInput'</a>
+    <a href="#client.crafting.CraftingManager">client.crafting.CraftingManager</a>
  &#8226;   <a href="#client.guis.impl">client.guis.impl</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#skills">skills</a>
 
   </div>
   <div class="import">
@@ -3286,13 +3464,13 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/guis/impl/GUIEnchantingMenu.py" type="text/plain"><tt>client.guis.impl.GUIEnchantingMenu</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'ui.Button'">'ui.Button'</a>
+    <a href="#client.globals">client.globals</a>
  &#8226;   <a href="#client.guis.impl">client.guis.impl</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#items">items</a>
+ &#8226;   <a href="#client.items.enchantments.Enchantment">client.items.enchantments.Enchantment</a>
+ &#8226;   <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#pygame.font">pygame.font</a>
- &#8226;   <a href="#ui">ui</a>
 
   </div>
   <div class="import">
@@ -3324,12 +3502,10 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/guis/impl/GUIIngame.py" type="text/plain"><tt>client.guis.impl.GUIIngame</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'items.ItemManager'">'items.ItemManager'</a>
+    <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#client.guis.impl">client.guis.impl</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#rooms">rooms</a>
+ &#8226;   <a href="#client.items.ItemManager">client.items.ItemManager</a>
+ &#8226;   <a href="#client.rooms.RoomManager">client.rooms.RoomManager</a>
 
   </div>
   <div class="import">
@@ -3361,14 +3537,217 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/guis/impl/GUISkillsMenu.py" type="text/plain"><tt>client.guis.impl.GUISkillsMenu</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'skills.SkillsManager'">'skills.SkillsManager'</a>
+    <a href="#client.globals">client.globals</a>
  &#8226;   <a href="#client.guis.impl">client.guis.impl</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/__init__.py" type="text/plain"><tt>client.items</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.ItemManager">client.items.ItemManager</a>
+ &#8226;   <a href="#client.items.enchantments">client.items.enchantments</a>
+ &#8226;   <a href="#client.items.weapons">client.items.weapons</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.ItemManager"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/ItemManager.py" type="text/plain"><tt>client.items.ItemManager</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.items">client.items</a>
+ &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#rooms">rooms</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.enchantments"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/enchantments/__init__.py" type="text/plain"><tt>client.items.enchantments</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#client.items">client.items</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.enchantments.Enchantment">client.items.enchantments.Enchantment</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.enchantments.Enchantment"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/enchantments/Enchantment.py" type="text/plain"><tt>client.items.enchantments.Enchantment</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.items.enchantments">client.items.enchantments</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.items.weapons</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.items">client.items</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
+ &#8226;   <a href="#client.items.weapons.impl">client.items.weapons.impl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.Weapon"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/weapons/Weapon.py" type="text/plain"><tt>client.items.weapons.Weapon</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.items.weapons">client.items.weapons</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee.RottenSword">client.items.weapons.impl.melee.RottenSword</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Yoogi">client.items.weapons.impl.melee.Yoogi</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.impl"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.items.weapons.impl</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.items.weapons">client.items.weapons</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.impl.melee"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/weapons/impl/melee/__init__.py" type="text/plain"><tt>client.items.weapons.impl.melee</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#client.items.weapons.impl">client.items.weapons.impl</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.RottenSword">client.items.weapons.impl.melee.RottenSword</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Yoogi">client.items.weapons.impl.melee.Yoogi</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items">client.items</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.RottenSword">client.items.weapons.impl.melee.RottenSword</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee.Yoogi">client.items.weapons.impl.melee.Yoogi</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.impl.melee.RottenSword"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/weapons/impl/melee/RottenSword.py" type="text/plain"><tt>client.items.weapons.impl.melee.RottenSword</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities.StatBuilder">client.entities.StatBuilder</a>
+ &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.impl.melee.Scythe"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/weapons/impl/melee/Scythe.py" type="text/plain"><tt>client.items.weapons.impl.melee.Scythe</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ability.impl.Berserker">client.ability.impl.Berserker</a>
+ &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.entities.StatBuilder">client.entities.StatBuilder</a>
+ &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.items.weapons.impl.melee.Yoogi"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/items/weapons/impl/melee/Yoogi.py" type="text/plain"><tt>client.items.weapons.impl.melee.Yoogi</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.entities.StatBuilder">client.entities.StatBuilder</a>
+ &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
+ &#8226;   <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.items.weapons.impl.melee">client.items.weapons.impl.melee</a>
 
   </div>
 
@@ -3395,14 +3774,103 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/rooms/RoomManager.py" type="text/plain"><tt>client.rooms.RoomManager</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'event.impl'">'event.impl'</a>
- &#8226;   <a href="#client.rooms">client.rooms</a>
+    <a href="#client.rooms">client.rooms</a>
+ &#8226;   <a href="#event">event</a>
  &#8226;   <a href="#globals">globals</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#main.py">main.py</a>
+    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+ &#8226;   <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.skills"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.skills</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.skills.SkillsManager"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/skills/SkillsManager.py" type="text/plain"><tt>client.skills.SkillsManager</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'skills.impl'">'skills.impl'</a>
+ &#8226;   <a href="#client.skills">client.skills</a>
+ &#8226;   <a href="#skills">skills</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ui"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.ui</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ui.Button"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ui/Button.py" type="text/plain"><tt>client.ui.Button</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ui">client.ui</a>
+ &#8226;   <a href="#globals">globals</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ui.TextInput"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ui/TextInput.py" type="text/plain"><tt>client.ui.TextInput</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.ui">client.ui</a>
+ &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#pygame">pygame</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
+ &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
 
   </div>
 
@@ -3413,7 +3881,10 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>client_globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.PlayerExitDungeonEvent">client.event.impl.PlayerExitDungeonEvent</a>
 
   </div>
@@ -3955,9 +4426,13 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>conf</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
- &#8226;   <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#main.py">main.py</a>
 
   </div>
@@ -4058,8 +4533,8 @@ imported by:
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/copy.py" type="text/plain"><tt>copy</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'org.python'">'org.python'</a>
- &#8226;   <a href="#copyreg">copyreg</a>
+    <a href="#copyreg">copyreg</a>
+ &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -7736,7 +8211,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>entities</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
 
   </div>
 
@@ -7806,7 +8281,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>event</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
+    <a href="#client.rooms.RoomManager">client.rooms.RoomManager</a>
 
   </div>
 
@@ -8132,15 +8607,20 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.ability.TimedPropertyChange">client.ability.TimedPropertyChange</a>
+ &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
  &#8226;   <a href="#client.event.impl.PlayerExitDungeonEvent">client.event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
- &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
+ &#8226;   <a href="#client.items.ItemManager">client.items.ItemManager</a>
+ &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
  &#8226;   <a href="#client.rooms.RoomManager">client.rooms.RoomManager</a>
+ &#8226;   <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#main.py">main.py</a>
 
   </div>
@@ -8850,7 +9330,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>items</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+    <a href="#client.crafting.impl.melee.Yoogi">client.crafting.impl.melee.Yoogi</a>
 
   </div>
 
@@ -10251,7 +10731,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>org</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#copy">copy</a>
 
   </div>
 
@@ -10560,7 +11040,8 @@ imported by:
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/pickle.py" type="text/plain"><tt>pickle</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#_compat_pickle">_compat_pickle</a>
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#_compat_pickle">_compat_pickle</a>
  &#8226;   <a href="#_pickle">_pickle</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#copyreg">copyreg</a>
@@ -10568,7 +11049,6 @@ imports:
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
- &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#struct">struct</a>
@@ -11450,13 +11930,13 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
- &#8226;   <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
  &#8226;   <a href="#client.guis.impl.GUIDead">client.guis.impl.GUIDead</a>
  &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+ &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#font.FontManager">font.FontManager</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pygame._freetype">pygame._freetype</a>
@@ -12752,7 +13232,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>rooms</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+    <a href="#client.items.ItemManager">client.items.ItemManager</a>
 
   </div>
 
@@ -12945,7 +13425,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>skills</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUICraftingMenu">client.guis.impl.GUICraftingMenu</a>
+    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
 
@@ -14069,7 +14549,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>ui</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
 
   </div>
 

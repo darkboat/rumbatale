@@ -1,11 +1,6 @@
 from os import stat
-from ui.TextInput import TextInput
-from crafting.CraftingManager import craftingmanager
-from skills.SkillsManager import skillsmanager
-
-import pygame
-
-import globals
+from client.ui.TextInput import TextInput
+from client.crafting.CraftingManager import craftingmanager
 
 class GUICraftingMenu:
     textInput = TextInput(100, 100, 200, 50, "Item To Craft")

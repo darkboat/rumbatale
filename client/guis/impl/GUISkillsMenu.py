@@ -1,6 +1,6 @@
-from skills.SkillsManager import skillsmanager
+from client.skills.SkillsManager import skillsmanager
 
-from globals import globals
+from client.globals import globals
 
 class GUISkillsMenu:
     @staticmethod

@@ -1,10 +1,10 @@
 from pygame import font
-from ui.TextInput import TextInput
-from ui.Button import Button
+from client.ui.TextInput import TextInput
+from client.ui.Button import Button
 
-from items.enchantments.Enchantment import EnchantingBook
+from client.items.enchantments.Enchantment import EnchantingBook
 
-from globals import globals
+from client.globals import globals
 
 class GUIEnchantingMenu:
     enchantment = TextInput(100, 200, 300, 50, "Enchantment")

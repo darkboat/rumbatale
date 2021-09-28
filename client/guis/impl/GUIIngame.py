@@ -1,10 +1,7 @@
-from items.ItemManager import itemmanager
-from rooms.RoomManager import roommanager
+from client.items.ItemManager import itemmanager
+from client.rooms.RoomManager import roommanager
 
-from globals import globals
-import conf
-
-import pygame
+import client.conf as conf
 
 class GUIIngame:
     @staticmethod
