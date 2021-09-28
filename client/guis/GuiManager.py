@@ -1,5 +1,5 @@
-from guis.impl.GUIEnchantingMenu import GUIEnchantingMenu
-from guis.impl.GUICraftingMenu import GUICraftingMenu
+from client.guis.impl.GUIEnchantingMenu import GUIEnchantingMenu
+from client.guis.impl.GUICraftingMenu import GUICraftingMenu
 
 
 class GuiManager:
