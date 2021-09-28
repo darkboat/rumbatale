@@ -443,7 +443,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>'org.python'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#copy">copy</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
 
   </div>
@@ -1685,17 +1685,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="ability"></a>
-  <a target="code" href="" type="text/plain"><tt>ability</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="argparse"></a>
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/argparse.py" type="text/plain"><tt>argparse</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -2860,6 +2849,7 @@ imported by:
 <span class="moduletype">Package</span>  <div class="import">
 imported by:
     <a href="#client.ability">client.ability</a>
+ &#8226;   <a href="#client.client_globals">client.client_globals</a>
  &#8226;   <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#client.crafting">client.crafting</a>
  &#8226;   <a href="#client.entities">client.entities</a>
@@ -2906,6 +2896,7 @@ imported by:
     <a href="#client.ability.impl.Berserker">client.ability.impl.Berserker</a>
  &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
  &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
 
   </div>
 
@@ -2917,7 +2908,7 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#client.ability">client.ability</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
 
   </div>
   <div class="import">
@@ -2972,9 +2963,9 @@ imported by:
 imports:
     <a href="#client.ability.Ability">client.ability.Ability</a>
  &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.client_globals">client.client_globals</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
 
   </div>
   <div class="import">
@@ -2992,9 +2983,9 @@ imported by:
 imports:
     <a href="#client.ability.Ability">client.ability.Ability</a>
  &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.client_globals">client.client_globals</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
 
   </div>
   <div class="import">
@@ -3010,16 +3001,34 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ability/impl/Shock.py" type="text/plain"><tt>client.ability.impl.Shock</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#ability">ability</a>
+    <a href="#client.ability.Ability">client.ability.Ability</a>
  &#8226;   <a href="#client.ability.impl">client.ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
+ &#8226;   <a href="#client.client_globals">client.client_globals</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.client_globals"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/client_globals.py" type="text/plain"><tt>client.client_globals</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
 
   </div>
 
@@ -3036,7 +3045,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
+    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.guis.impl.GUIIngame">client.guis.impl.GUIIngame</a>
  &#8226;   <a href="#font.FontManager">font.FontManager</a>
 
   </div>
@@ -3342,7 +3354,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+    <a href="#client.ability.TimedPropertyChange">client.ability.TimedPropertyChange</a>
+ &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
+ &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
+ &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
  &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
  &#8226;   <a href="#client.ui.Button">client.ui.Button</a>
  &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
@@ -3882,10 +3898,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>client_globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
- &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
- &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
- &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.PlayerExitDungeonEvent">client.event.impl.PlayerExitDungeonEvent</a>
 
   </div>
@@ -4427,10 +4440,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>conf</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
- &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
- &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
- &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
  &#8226;   <a href="#main.py">main.py</a>
@@ -4533,8 +4543,8 @@ imported by:
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/copy.py" type="text/plain"><tt>copy</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#org">org</a>
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -8607,11 +8617,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.ability.TimedPropertyChange">client.ability.TimedPropertyChange</a>
- &#8226;   <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
- &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
- &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
- &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
+    <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
@@ -8954,7 +8960,7 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
- &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -9060,6 +9066,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#_distutils_hack">_distutils_hack</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
@@ -9087,7 +9094,6 @@ imported by:
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#imp">imp</a>
- &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
@@ -10729,7 +10735,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>org</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#copy">copy</a>
+    <a href="#pickle">pickle</a>
 
   </div>
 
@@ -11038,8 +11044,7 @@ imported by:
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/pickle.py" type="text/plain"><tt>pickle</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'org.python'">'org.python'</a>
- &#8226;   <a href="#_compat_pickle">_compat_pickle</a>
+    <a href="#_compat_pickle">_compat_pickle</a>
  &#8226;   <a href="#_pickle">_pickle</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#copyreg">copyreg</a>
@@ -11047,6 +11052,7 @@ imports:
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#struct">struct</a>

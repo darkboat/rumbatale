@@ -1,8 +1,8 @@
 from client.ability.Ability import Ability
 
-from globals import globals
-import client_globals as cGlobals
-import conf
+from client.globals import globals
+import client.client_globals as cGlobals
+import client.conf as conf
 
 class LifeSteal(Ability):
     def __init__(self):

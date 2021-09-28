@@ -1,4 +1,4 @@
-from globals import globals
+from client.globals import globals
 
 class TimedPropertyChange:
     def __init__(self, object, property, newValue, time):
