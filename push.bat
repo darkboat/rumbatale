@@ -2,7 +2,16 @@ cd client
 
 echo creating executable...
 
-pyinstaller -c -F main.spec
+pyinstaller --onefile -c -F main.py
+
+cd ../installer
+
+pyinstaller --onefile main.py
+
+cd ../launcher
+
+pyinstaller --onefile main.py
+
 cd ..
 
 echo pushing to git...

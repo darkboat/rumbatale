@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale'],
+             pathex=['C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client'],
              binaries=[],
              datas=[],
              hiddenimports=[],
