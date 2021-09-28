@@ -1,4 +1,4 @@
-from ui.SkillsBar import SkillsBar
+from client.ui.SkillsBar import SkillsBar
 
 class Sharpifier:
     def __init__(self):

@@ -1,5 +1,5 @@
-from skills.impl.Protection import Protection
-from skills.impl.Sharpifier import Sharpifier
+from client.skills.impl.Protection import Protection
+from client.skills.impl.Sharpifier import Sharpifier
 
 class SkillsManager:
     def __init__(self):

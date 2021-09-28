@@ -485,17 +485,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'skills.impl'"></a>
-  <a target="code" href="" type="text/plain"><tt>'skills.impl'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="'win32com.gen_py'"></a>
   <a target="code" href="" type="text/plain"><tt>'win32com.gen_py'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -3431,6 +3420,7 @@ imported by:
  &#8226;   <a href="#client.items.ItemManager">client.items.ItemManager</a>
  &#8226;   <a href="#client.items.weapons.Weapon">client.items.weapons.Weapon</a>
  &#8226;   <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
  &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
 
   </div>
@@ -3958,6 +3948,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
+ &#8226;   <a href="#client.skills.impl">client.skills.impl</a>
 
   </div>
 
@@ -3968,15 +3959,66 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/skills/SkillsManager.py" type="text/plain"><tt>client.skills.SkillsManager</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'skills.impl'">'skills.impl'</a>
- &#8226;   <a href="#client.skills">client.skills</a>
- &#8226;   <a href="#skills">skills</a>
+    <a href="#client.skills">client.skills</a>
+ &#8226;   <a href="#client.skills.impl.Protection">client.skills.impl.Protection</a>
+ &#8226;   <a href="#client.skills.impl.Sharpifier">client.skills.impl.Sharpifier</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.skills.impl"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.skills.impl</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.skills">client.skills</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.skills.impl.Protection">client.skills.impl.Protection</a>
+ &#8226;   <a href="#client.skills.impl.Sharpifier">client.skills.impl.Sharpifier</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.skills.impl.Protection"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/skills/impl/Protection.py" type="text/plain"><tt>client.skills.impl.Protection</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.skills.impl">client.skills.impl</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.skills.impl.Sharpifier"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/skills/impl/Sharpifier.py" type="text/plain"><tt>client.skills.impl.Sharpifier</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.skills.impl">client.skills.impl</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
 
@@ -3993,6 +4035,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
  &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#client.ui.TextView">client.ui.TextView</a>
 
@@ -4012,6 +4055,27 @@ imports:
   <div class="import">
 imported by:
     <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.ui.SkillsBar"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/ui/SkillsBar.py" type="text/plain"><tt>client.ui.SkillsBar</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.globals">client.globals</a>
+ &#8226;   <a href="#client.ui">client.ui</a>
+ &#8226;   <a href="#client.ui.Button">client.ui.Button</a>
+ &#8226;   <a href="#pygame">pygame</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.skills.impl.Protection">client.skills.impl.Protection</a>
+ &#8226;   <a href="#client.skills.impl.Sharpifier">client.skills.impl.Sharpifier</a>
 
   </div>
 
@@ -12086,6 +12150,7 @@ imported by:
  &#8226;   <a href="#client.event.impl.MouseDownEvent">client.event.impl.MouseDownEvent</a>
  &#8226;   <a href="#client.guis.impl.GUIDead">client.guis.impl.GUIDead</a>
  &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+ &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
  &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
  &#8226;   <a href="#font.FontManager">font.FontManager</a>
  &#8226;   <a href="#main.py">main.py</a>
@@ -13566,17 +13631,6 @@ imported by:
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills"></a>
-  <a target="code" href="" type="text/plain"><tt>skills</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
 
