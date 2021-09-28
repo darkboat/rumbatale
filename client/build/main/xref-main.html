@@ -2575,17 +2575,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="bindings"></a>
-  <a target="code" href="" type="text/plain"><tt>bindings</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="bisect"></a>
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/bisect.py" type="text/plain"><tt>bisect</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -2717,6 +2706,7 @@ imported by:
 <span class="moduletype">Package</span>  <div class="import">
 imported by:
     <a href="#client.ability">client.ability</a>
+ &#8226;   <a href="#client.bindings">client.bindings</a>
  &#8226;   <a href="#client.client_globals">client.client_globals</a>
  &#8226;   <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#client.crafting">client.crafting</a>
@@ -2879,6 +2869,23 @@ imports:
   <div class="import">
 imported by:
     <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.bindings"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/bindings.py" type="text/plain"><tt>client.bindings</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+ &#8226;   <a href="#pygame.constants">pygame.constants</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
 
   </div>
 
@@ -3319,7 +3326,7 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/event/impl/KeydownEvent.py" type="text/plain"><tt>client.event.impl.KeydownEvent</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#bindings">bindings</a>
+    <a href="#client.bindings">client.bindings</a>
  &#8226;   <a href="#client.entities.impl.Consumable">client.entities.impl.Consumable</a>
  &#8226;   <a href="#client.event.Event">client.event.Event</a>
  &#8226;   <a href="#client.event.impl">client.event.impl</a>
@@ -12304,7 +12311,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#main.py">main.py</a>
+    <a href="#client.bindings">client.bindings</a>
+ &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pygame">pygame</a>
 
   </div>

@@ -5,7 +5,7 @@ from client.entities.impl.Consumable import Consumable
 from client.rooms.RoomManager import roommanager
 from client.event.Event import Event
 
-import bindings
+import client.bindings as bindings
 from globals import globals
 
 class KeydownEvent(Event):
