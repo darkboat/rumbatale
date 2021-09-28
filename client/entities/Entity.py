@@ -40,6 +40,9 @@ class Entity:
             self.color = prev
         else:
             self.image = pygame.transform.smoothscale(prev, (self.width, self.height))
+
+            print(conf.RESOURCE_DIR + "/entities/player/playerDown.png")
+            
             self.downImage = pygame.transform.smoothscale(pygame.image.load(conf.RESOURCE_DIR + "/entities/player/playerDown.png").convert_alpha(), (self.width, self.height)).convert_alpha()
             self.upImage = pygame.transform.smoothscale(pygame.image.load(conf.RESOURCE_DIR + "/entities/player/playerUp.png").convert_alpha(), (self.width, self.height)).convert_alpha()
 
