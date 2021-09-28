@@ -15,10 +15,18 @@
 
 <div class="node">
   <a name="main.py"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/main.py" type="text/plain"><tt>main.py</tt></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/main.py" type="text/plain"><tt>main.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
-    <a href="#_bootlocale">_bootlocale</a>
+    <a href="#'crafting.impl'">'crafting.impl'</a>
+ &#8226;   <a href="#'entities.impl'">'entities.impl'</a>
+ &#8226;   <a href="#'event.impl'">'event.impl'</a>
+ &#8226;   <a href="#'guis.GuiManager'">'guis.GuiManager'</a>
+ &#8226;   <a href="#'guis.impl'">'guis.impl'</a>
+ &#8226;   <a href="#'items.ItemManager'">'items.ItemManager'</a>
+ &#8226;   <a href="#'items.weapons'">'items.weapons'</a>
+ &#8226;   <a href="#'rooms.impl'">'rooms.impl'</a>
+ &#8226;   <a href="#_bootlocale">_bootlocale</a>
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_weakrefset">_weakrefset</a>
  &#8226;   <a href="#abc">abc</a>
@@ -28,9 +36,8 @@ imports:
  &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#conf">conf</a>
  &#8226;   <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#crafting.CraftingManager">crafting.CraftingManager</a>
- &#8226;   <a href="#crafting.impl.melee.Yoogi">crafting.impl.melee.Yoogi</a>
- &#8226;   <a href="#data.DataManager">data.DataManager</a>
+ &#8226;   <a href="#crafting">crafting</a>
+ &#8226;   <a href="#data">data</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
@@ -153,30 +160,17 @@ imports:
  &#8226;   <a href="#encodings.utf_8_sig">encodings.utf_8_sig</a>
  &#8226;   <a href="#encodings.uu_codec">encodings.uu_codec</a>
  &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
+ &#8226;   <a href="#entities">entities</a>
  &#8226;   <a href="#enum">enum</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
+ &#8226;   <a href="#event">event</a>
  &#8226;   <a href="#font.FontManager">font.FontManager</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#guis.GuiManager">guis.GuiManager</a>
- &#8226;   <a href="#guis.impl.GUICompletedGame">guis.impl.GUICompletedGame</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIDead">guis.impl.GUIDead</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#guis.impl.GUIEnterDungeon">guis.impl.GUIEnterDungeon</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#guis.impl.GUIMainMenu">guis.impl.GUIMainMenu</a>
- &#8226;   <a href="#guis.impl.GUISkillsMenu">guis.impl.GUISkillsMenu</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
+ &#8226;   <a href="#guis">guis</a>
+ &#8226;   <a href="#handlers">handlers</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#io">io</a>
- &#8226;   <a href="#items.ItemManager">items.ItemManager</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
+ &#8226;   <a href="#items">items</a>
  &#8226;   <a href="#keyword">keyword</a>
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
@@ -191,9 +185,7 @@ imports:
  &#8226;   <a href="#pyi_rth_win32comgenpy.py">pyi_rth_win32comgenpy.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
+ &#8226;   <a href="#rooms">rooms</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
@@ -336,6 +328,83 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="'crafting.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'crafting.impl'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'entities.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'entities.impl'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'event.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'event.impl'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'guis.GuiManager'"></a>
+  <a target="code" href="" type="text/plain"><tt>'guis.GuiManager'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'guis.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'guis.impl'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'items.ItemManager'"></a>
+  <a target="code" href="" type="text/plain"><tt>'items.ItemManager'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'items.weapons'"></a>
+  <a target="code" href="" type="text/plain"><tt>'items.weapons'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="'java.lang'"></a>
   <a target="code" href="" type="text/plain"><tt>'java.lang'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -399,6 +468,17 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#pygame">pygame</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'rooms.impl'"></a>
+  <a target="code" href="" type="text/plain"><tt>'rooms.impl'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
 
   </div>
 
@@ -1547,152 +1627,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="ability"></a>
-  <a target="code" href="-" type="text/plain"><tt>ability</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#ability.Ability">ability.Ability</a>
- &#8226;   <a href="#ability.TimedPropertyChange">ability.TimedPropertyChange</a>
- &#8226;   <a href="#ability.impl">ability.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.Ability"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/Ability.py" type="text/plain"><tt>ability.Ability</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability">ability</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#ability.impl.Berserker">ability.impl.Berserker</a>
- &#8226;   <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.TimedPropertyChange"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/TimedPropertyChange.py" type="text/plain"><tt>ability.TimedPropertyChange</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability">ability</a>
- &#8226;   <a href="#globals">globals</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#ability.impl.Berserker">ability.impl.Berserker</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>ability.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#ability">ability</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#ability.impl.Berserker">ability.impl.Berserker</a>
- &#8226;   <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.impl.Berserker"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/impl/Berserker.py" type="text/plain"><tt>ability.impl.Berserker</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability.Ability">ability.Ability</a>
- &#8226;   <a href="#ability.TimedPropertyChange">ability.TimedPropertyChange</a>
- &#8226;   <a href="#ability.impl">ability.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.impl.LifeSteal"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/impl/LifeSteal.py" type="text/plain"><tt>ability.impl.LifeSteal</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability.Ability">ability.Ability</a>
- &#8226;   <a href="#ability.impl">ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.impl.Reap"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/impl/Reap.py" type="text/plain"><tt>ability.impl.Reap</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability.Ability">ability.Ability</a>
- &#8226;   <a href="#ability.impl">ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ability.impl.Shock"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ability/impl/Shock.py" type="text/plain"><tt>ability.impl.Shock</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability.Ability">ability.Ability</a>
- &#8226;   <a href="#ability.impl">ability.impl</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="argparse"></a>
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/argparse.py" type="text/plain"><tt>argparse</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -2715,24 +2649,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="bindings"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/bindings.py" type="text/plain"><tt>bindings</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#pygame.constants">pygame.constants</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="bisect"></a>
   <a target="code" href="///C:/Program%20Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/lib/bisect.py" type="text/plain"><tt>bisect</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -2859,19 +2775,28 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="client_globals"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client_globals.py" type="text/plain"><tt>client_globals</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
+  <a name="client"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/__init__.py" type="text/plain"><tt>client</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
 imported by:
-    <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
- &#8226;   <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
+    <a href="#client.conf">client.conf</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.conf"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/conf.py" type="text/plain"><tt>client.conf</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#font.FontManager">font.FontManager</a>
 
   </div>
 
@@ -3409,37 +3334,10 @@ imported by:
 
 <div class="node">
   <a name="conf"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/conf.py" type="text/plain"><tt>conf</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#os">os</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>conf</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.impl.DungeonExit">entities.impl.DungeonExit</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#entities.impl.Ref">entities.impl.Ref</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#font.FontManager">font.FontManager</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
- &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
- &#8226;   <a href="#ui.TextView">ui.TextView</a>
+    <a href="#main.py">main.py</a>
 
   </div>
 
@@ -3602,93 +3500,8 @@ imported by:
 
 <div class="node">
   <a name="crafting"></a>
-  <a target="code" href="-" type="text/plain"><tt>crafting</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#crafting.Craftable">crafting.Craftable</a>
- &#8226;   <a href="#crafting.CraftingManager">crafting.CraftingManager</a>
- &#8226;   <a href="#crafting.impl">crafting.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="crafting.Craftable"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/crafting/Craftable.py" type="text/plain"><tt>crafting.Craftable</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#crafting">crafting</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#crafting.impl.melee.Yoogi">crafting.impl.melee.Yoogi</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="crafting.CraftingManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/crafting/CraftingManager.py" type="text/plain"><tt>crafting.CraftingManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#crafting">crafting</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="crafting.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>crafting.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#crafting">crafting</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#crafting.impl.melee">crafting.impl.melee</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="crafting.impl.melee"></a>
-  <a target="code" href="-" type="text/plain"><tt>crafting.impl.melee</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#crafting.impl">crafting.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#crafting.impl.melee.Yoogi">crafting.impl.melee.Yoogi</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="crafting.impl.melee.Yoogi"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/crafting/impl/melee/Yoogi.py" type="text/plain"><tt>crafting.impl.melee.Yoogi</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#crafting.Craftable">crafting.Craftable</a>
- &#8226;   <a href="#crafting.impl.melee">crafting.impl.melee</a>
- &#8226;   <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>crafting</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
 
@@ -3763,25 +3576,8 @@ imported by:
 
 <div class="node">
   <a name="data"></a>
-  <a target="code" href="-" type="text/plain"><tt>data</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#data.DataManager">data.DataManager</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="data.DataManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/data/DataManager.py" type="text/plain"><tt>data.DataManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#data">data</a>
- &#8226;   <a href="#math">math</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>data</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
 
@@ -4328,66 +4124,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#pickle">pickle</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="drops"></a>
-  <a target="code" href="-" type="text/plain"><tt>drops</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#drops.presets">drops.presets</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="drops.presets"></a>
-  <a target="code" href="-" type="text/plain"><tt>drops.presets</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#drops">drops</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#drops.presets.enemies">drops.presets.enemies</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="drops.presets.enemies"></a>
-  <a target="code" href="-" type="text/plain"><tt>drops.presets.enemies</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#drops.presets">drops.presets</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#drops.presets.enemies.Crawler">drops.presets.enemies.Crawler</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="drops.presets.enemies.Crawler"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/drops/presets/enemies/Crawler.py" type="text/plain"><tt>drops.presets.enemies.Crawler</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#drops.presets.enemies">drops.presets.enemies</a>
- &#8226;   <a href="#items">items</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#enemies.Crawler">enemies.Crawler</a>
 
   </div>
 
@@ -7375,290 +7111,11 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="enemies"></a>
-  <a target="code" href="-" type="text/plain"><tt>enemies</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#enemies.Crawler">enemies.Crawler</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="enemies.Crawler"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/enemies/Crawler.py" type="text/plain"><tt>enemies.Crawler</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#drops.presets.enemies.Crawler">drops.presets.enemies.Crawler</a>
- &#8226;   <a href="#enemies">enemies</a>
- &#8226;   <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#skills.SkillsManager">skills.SkillsManager</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="entities"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/__init__.py" type="text/plain"><tt>entities</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imported by:
-    <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.Entity"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/Entity.py" type="text/plain"><tt>entities.Entity</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#entities">entities</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#json">json</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.impl.DungeonExit">entities.impl.DungeonExit</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#entities.impl.Ref">entities.impl.Ref</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.EntityLiving"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/EntityLiving.py" type="text/plain"><tt>entities.EntityLiving</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities">entities</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.StatBuilder"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/StatBuilder.py" type="text/plain"><tt>entities.StatBuilder</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities">entities</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#items.weapons.impl.melee.RottenSword">items.weapons.impl.melee.RottenSword</a>
- &#8226;   <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
- &#8226;   <a href="#items.weapons.impl.melee.Yoogi">items.weapons.impl.melee.Yoogi</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/__init__.py" type="text/plain"><tt>entities.impl</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imports:
-    <a href="#entities">entities</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Consumable">entities.impl.Consumable</a>
- &#8226;   <a href="#entities.impl.DungeonExit">entities.impl.DungeonExit</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#entities.impl.Ref">entities.impl.Ref</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Consumable"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Consumable.py" type="text/plain"><tt>entities.impl.Consumable</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl">entities.impl</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#items.consumables.potions.Potion">items.consumables.potions.Potion</a>
- &#8226;   <a href="#items.consumables.potions.impl.HPPLUS">items.consumables.potions.impl.HPPLUS</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.DungeonExit"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/DungeonExit.py" type="text/plain"><tt>entities.impl.DungeonExit</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Enemy"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Enemy.py" type="text/plain"><tt>entities.impl.Enemy</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#random">random</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#enemies.Crawler">enemies.Crawler</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Item"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Item.py" type="text/plain"><tt>entities.impl.Item</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Consumable">entities.impl.Consumable</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#items.enchantments.Enchantment">items.enchantments.Enchantment</a>
- &#8226;   <a href="#items.keys.Key">items.keys.Key</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Player"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Player.py" type="text/plain"><tt>entities.impl.Player</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#event.impl.PlayerKillEntityEvent">event.impl.PlayerKillEntityEvent</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#items.keys.impl.red">items.keys.impl.red</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#random">random</a>
- &#8226;   <a href="#skills.SkillsManager">skills.SkillsManager</a>
- &#8226;   <a href="#ui.TextView">ui.TextView</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#handlers.handleMovement">handlers.handleMovement</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Ref"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Ref.py" type="text/plain"><tt>entities.impl.Ref</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="entities.impl.Tile"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/entities/impl/Tile.py" type="text/plain"><tt>entities.impl.Tile</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.impl">entities.impl</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>entities</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
 
   </div>
 
@@ -7725,216 +7182,10 @@ imported by:
 
 <div class="node">
   <a name="event"></a>
-  <a target="code" href="-" type="text/plain"><tt>event</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.EventManager">event.EventManager</a>
- &#8226;   <a href="#event.impl">event.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.Event"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/Event.py" type="text/plain"><tt>event.Event</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event">event</a>
- &#8226;   <a href="#event.EventManager">event.EventManager</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.ChangeRoomEvent">event.impl.ChangeRoomEvent</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#event.impl.PlayerKillEntityEvent">event.impl.PlayerKillEntityEvent</a>
- &#8226;   <a href="#event.impl.PlayerMoveEvent">event.impl.PlayerMoveEvent</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.EventManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/EventManager.py" type="text/plain"><tt>event.EventManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event">event</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.Event">event.Event</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>event.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#event">event</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.ChangeRoomEvent">event.impl.ChangeRoomEvent</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#event.impl.PlayerKillEntityEvent">event.impl.PlayerKillEntityEvent</a>
- &#8226;   <a href="#event.impl.PlayerMoveEvent">event.impl.PlayerMoveEvent</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.ChangeRoomEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/ChangeRoomEvent.py" type="text/plain"><tt>event.impl.ChangeRoomEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.RoomManager">rooms.RoomManager</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.CurrentInventorySlotChangeEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/CurrentInventorySlotChangeEvent.py" type="text/plain"><tt>event.impl.CurrentInventorySlotChangeEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
- &#8226;   <a href="#globals">globals</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.KeydownEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/KeydownEvent.py" type="text/plain"><tt>event.impl.KeydownEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#bindings">bindings</a>
- &#8226;   <a href="#entities.impl.Consumable">entities.impl.Consumable</a>
- &#8226;   <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>event</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.MouseDownEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/MouseDownEvent.py" type="text/plain"><tt>event.impl.MouseDownEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#bindings">bindings</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.PlayerExitDungeonEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/PlayerExitDungeonEvent.py" type="text/plain"><tt>event.impl.PlayerExitDungeonEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#items.keys.Key">items.keys.Key</a>
- &#8226;   <a href="#items.keys.impl.red">items.keys.impl.red</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.PlayerKillEntityEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/PlayerKillEntityEvent.py" type="text/plain"><tt>event.impl.PlayerKillEntityEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#random">random</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Player">entities.impl.Player</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="event.impl.PlayerMoveEvent"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/event/impl/PlayerMoveEvent.py" type="text/plain"><tt>event.impl.PlayerMoveEvent</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event.Event">event.Event</a>
- &#8226;   <a href="#event.impl">event.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#handlers.handleMovement">handlers.handleMovement</a>
 
   </div>
 
@@ -7987,7 +7238,7 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/font/FontManager.py" type="text/plain"><tt>font.FontManager</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#conf">conf</a>
+    <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#font">font</a>
  &#8226;   <a href="#pygame">pygame</a>
 
@@ -8257,40 +7508,10 @@ imported by:
 
 <div class="node">
   <a name="globals"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/globals.py" type="text/plain"><tt>globals</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>globals</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#ability.TimedPropertyChange">ability.TimedPropertyChange</a>
- &#8226;   <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
- &#8226;   <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.CurrentInventorySlotChangeEvent">event.impl.CurrentInventorySlotChangeEvent</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#event.impl.PlayerKillEntityEvent">event.impl.PlayerKillEntityEvent</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#guis.impl.GUISkillsMenu">guis.impl.GUISkillsMenu</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
- &#8226;   <a href="#items.ItemManager">items.ItemManager</a>
- &#8226;   <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
- &#8226;   <a href="#items.enchantments.Enchantment">items.enchantments.Enchantment</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#ui.Button">ui.Button</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
+    <a href="#main.py">main.py</a>
 
   </div>
 
@@ -8313,202 +7534,8 @@ imported by:
 
 <div class="node">
   <a name="guis"></a>
-  <a target="code" href="-" type="text/plain"><tt>guis</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#guis.GuiManager">guis.GuiManager</a>
- &#8226;   <a href="#guis.impl">guis.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.GuiManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/GuiManager.py" type="text/plain"><tt>guis.GuiManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#guis">guis</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>guis.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#guis">guis</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUICompletedGame">guis.impl.GUICompletedGame</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIDead">guis.impl.GUIDead</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#guis.impl.GUIEnterDungeon">guis.impl.GUIEnterDungeon</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#guis.impl.GUIMainMenu">guis.impl.GUIMainMenu</a>
- &#8226;   <a href="#guis.impl.GUISkillsMenu">guis.impl.GUISkillsMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUICompletedGame"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUICompletedGame.py" type="text/plain"><tt>guis.impl.GUICompletedGame</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#guis.impl">guis.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUICraftingMenu"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUICraftingMenu.py" type="text/plain"><tt>guis.impl.GUICraftingMenu</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#crafting.CraftingManager">crafting.CraftingManager</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl">guis.impl</a>
- &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#skills.SkillsManager">skills.SkillsManager</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.GuiManager">guis.GuiManager</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUIDead"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUIDead.py" type="text/plain"><tt>guis.impl.GUIDead</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#guis.impl">guis.impl</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUIEnchantingMenu"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUIEnchantingMenu.py" type="text/plain"><tt>guis.impl.GUIEnchantingMenu</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl">guis.impl</a>
- &#8226;   <a href="#items.enchantments.Enchantment">items.enchantments.Enchantment</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#pygame.font">pygame.font</a>
- &#8226;   <a href="#ui.Button">ui.Button</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.GuiManager">guis.GuiManager</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUIEnterDungeon"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUIEnterDungeon.py" type="text/plain"><tt>guis.impl.GUIEnterDungeon</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#guis.impl">guis.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUIIngame"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUIIngame.py" type="text/plain"><tt>guis.impl.GUIIngame</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl">guis.impl</a>
- &#8226;   <a href="#items.ItemManager">items.ItemManager</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUIMainMenu"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUIMainMenu.py" type="text/plain"><tt>guis.impl.GUIMainMenu</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#guis.impl">guis.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="guis.impl.GUISkillsMenu"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/guis/impl/GUISkillsMenu.py" type="text/plain"><tt>guis.impl.GUISkillsMenu</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl">guis.impl</a>
- &#8226;   <a href="#skills.SkillsManager">skills.SkillsManager</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>guis</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
 
@@ -8545,32 +7572,8 @@ imported by:
 
 <div class="node">
   <a name="handlers"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/handlers/__init__.py" type="text/plain"><tt>handlers</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imported by:
-    <a href="#handlers.handleMovement">handlers.handleMovement</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="handlers.handleMovement"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/handlers/handleMovement.py" type="text/plain"><tt>handlers.handleMovement</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#bindings">bindings</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#conf">conf</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.PlayerMoveEvent">event.impl.PlayerMoveEvent</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#handlers">handlers</a>
- &#8226;   <a href="#pygame">pygame</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>handlers</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
 
@@ -9214,479 +8217,10 @@ imported by:
 
 <div class="node">
   <a name="items"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/__init__.py" type="text/plain"><tt>items</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imports:
-    <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>items</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#drops.presets.enemies.Crawler">drops.presets.enemies.Crawler</a>
- &#8226;   <a href="#items.ItemManager">items.ItemManager</a>
- &#8226;   <a href="#items.consumables">items.consumables</a>
- &#8226;   <a href="#items.enchantments">items.enchantments</a>
- &#8226;   <a href="#items.keys">items.keys</a>
- &#8226;   <a href="#items.weapons">items.weapons</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.ItemManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/ItemManager.py" type="text/plain"><tt>items.ItemManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#globals">globals</a>
- &#8226;   <a href="#items">items</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.consumables</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items">items</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.consumables.potions">items.consumables.potions</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.consumables.potions</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items.consumables">items.consumables</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.consumables.potions.Potion">items.consumables.potions.Potion</a>
- &#8226;   <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
- &#8226;   <a href="#items.consumables.potions.impl">items.consumables.potions.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.Potion"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/Potion.py" type="text/plain"><tt>items.consumables.potions.Potion</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl.Consumable">entities.impl.Consumable</a>
- &#8226;   <a href="#items.consumables.potions">items.consumables.potions</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.StatBoostPotion"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/StatBoostPotion.py" type="text/plain"><tt>items.consumables.potions.StatBoostPotion</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#globals">globals</a>
- &#8226;   <a href="#items.consumables.potions">items.consumables.potions</a>
- &#8226;   <a href="#items.consumables.potions.Potion">items.consumables.potions.Potion</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.consumables.potions.impl.Invincibility">items.consumables.potions.impl.Invincibility</a>
- &#8226;   <a href="#items.consumables.potions.impl.SpeedPLUS">items.consumables.potions.impl.SpeedPLUS</a>
- &#8226;   <a href="#items.consumables.potions.impl.StengthPLUS">items.consumables.potions.impl.StengthPLUS</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.consumables.potions.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items.consumables.potions">items.consumables.potions</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.consumables.potions.impl.HPPLUS">items.consumables.potions.impl.HPPLUS</a>
- &#8226;   <a href="#items.consumables.potions.impl.Invincibility">items.consumables.potions.impl.Invincibility</a>
- &#8226;   <a href="#items.consumables.potions.impl.SpeedPLUS">items.consumables.potions.impl.SpeedPLUS</a>
- &#8226;   <a href="#items.consumables.potions.impl.StengthPLUS">items.consumables.potions.impl.StengthPLUS</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.impl.HPPLUS"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/impl/HPPLUS.py" type="text/plain"><tt>items.consumables.potions.impl.HPPLUS</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl.Consumable">entities.impl.Consumable</a>
- &#8226;   <a href="#items.consumables.potions.impl">items.consumables.potions.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.impl.Invincibility"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/impl/Invincibility.py" type="text/plain"><tt>items.consumables.potions.impl.Invincibility</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
- &#8226;   <a href="#items.consumables.potions.impl">items.consumables.potions.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.impl.SpeedPLUS"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/impl/SpeedPLUS.py" type="text/plain"><tt>items.consumables.potions.impl.SpeedPLUS</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
- &#8226;   <a href="#items.consumables.potions.impl">items.consumables.potions.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.consumables.potions.impl.StengthPLUS"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/consumables/potions/impl/StengthPLUS.py" type="text/plain"><tt>items.consumables.potions.impl.StengthPLUS</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#items.consumables.potions.StatBoostPotion">items.consumables.potions.StatBoostPotion</a>
- &#8226;   <a href="#items.consumables.potions.impl">items.consumables.potions.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.enchantments"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/enchantments/__init__.py" type="text/plain"><tt>items.enchantments</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imports:
-    <a href="#items">items</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.enchantments.Enchantment">items.enchantments.Enchantment</a>
- &#8226;   <a href="#items.enchantments.impl">items.enchantments.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.enchantments.Enchantment"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/enchantments/Enchantment.py" type="text/plain"><tt>items.enchantments.Enchantment</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#items.enchantments">items.enchantments</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#items.enchantments.impl.Inferno">items.enchantments.impl.Inferno</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.enchantments.impl"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/enchantments/impl/__init__.py" type="text/plain"><tt>items.enchantments.impl</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imports:
-    <a href="#items.enchantments">items.enchantments</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.enchantments.impl.Inferno">items.enchantments.impl.Inferno</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.enchantments.impl.Inferno"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/enchantments/impl/Inferno.py" type="text/plain"><tt>items.enchantments.impl.Inferno</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#items.enchantments.Enchantment">items.enchantments.Enchantment</a>
- &#8226;   <a href="#items.enchantments.impl">items.enchantments.impl</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.keys"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.keys</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items">items</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.keys.Key">items.keys.Key</a>
- &#8226;   <a href="#items.keys.impl">items.keys.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.keys.Key"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/keys/Key.py" type="text/plain"><tt>items.keys.Key</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#items.keys">items.keys</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#items.keys.impl.red">items.keys.impl.red</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.keys.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.keys.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items.keys">items.keys</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.keys.impl.red">items.keys.impl.red</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.keys.impl.red"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/keys/impl/red.py" type="text/plain"><tt>items.keys.impl.red</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#items.keys.Key">items.keys.Key</a>
- &#8226;   <a href="#items.keys.impl">items.keys.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.weapons</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items">items</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#items.weapons.impl">items.weapons.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.Weapon"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/weapons/Weapon.py" type="text/plain"><tt>items.weapons.Weapon</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#items.weapons">items.weapons</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#items.enchantments.impl.Inferno">items.enchantments.impl.Inferno</a>
- &#8226;   <a href="#items.weapons.impl.melee.RottenSword">items.weapons.impl.melee.RottenSword</a>
- &#8226;   <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
- &#8226;   <a href="#items.weapons.impl.melee.Yoogi">items.weapons.impl.melee.Yoogi</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>items.weapons.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#items.weapons">items.weapons</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.impl.melee"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/weapons/impl/melee/__init__.py" type="text/plain"><tt>items.weapons.impl.melee</tt></a>
-<span class="moduletype">Package</span>  <div class="import">
-imports:
-    <a href="#items.weapons.impl">items.weapons.impl</a>
- &#8226;   <a href="#items.weapons.impl.melee.RottenSword">items.weapons.impl.melee.RottenSword</a>
- &#8226;   <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
- &#8226;   <a href="#items.weapons.impl.melee.Yoogi">items.weapons.impl.melee.Yoogi</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#crafting.impl.melee.Yoogi">crafting.impl.melee.Yoogi</a>
- &#8226;   <a href="#items">items</a>
- &#8226;   <a href="#items.weapons.impl.melee.RottenSword">items.weapons.impl.melee.RottenSword</a>
- &#8226;   <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
- &#8226;   <a href="#items.weapons.impl.melee.Yoogi">items.weapons.impl.melee.Yoogi</a>
- &#8226;   <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.impl.melee.RottenSword"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/weapons/impl/melee/RottenSword.py" type="text/plain"><tt>items.weapons.impl.melee.RottenSword</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.impl.melee.Scythe"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/weapons/impl/melee/Scythe.py" type="text/plain"><tt>items.weapons.impl.melee.Scythe</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#ability.impl.Berserker">ability.impl.Berserker</a>
- &#8226;   <a href="#ability.impl.LifeSteal">ability.impl.LifeSteal</a>
- &#8226;   <a href="#ability.impl.Reap">ability.impl.Reap</a>
- &#8226;   <a href="#ability.impl.Shock">ability.impl.Shock</a>
- &#8226;   <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="items.weapons.impl.melee.Yoogi"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/items/weapons/impl/melee/Yoogi.py" type="text/plain"><tt>items.weapons.impl.melee.Yoogi</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#entities.StatBuilder">entities.StatBuilder</a>
- &#8226;   <a href="#items.weapons.Weapon">items.weapons.Weapon</a>
- &#8226;   <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#items.weapons.impl.melee">items.weapons.impl.melee</a>
- &#8226;   <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
+    <a href="#main.py">main.py</a>
 
   </div>
 
@@ -9770,7 +8304,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
- &#8226;   <a href="#entities.Entity">entities.Entity</a>
  &#8226;   <a href="#json.decoder">json.decoder</a>
  &#8226;   <a href="#json.encoder">json.encoder</a>
  &#8226;   <a href="#json.scanner">json.scanner</a>
@@ -10000,12 +8533,10 @@ imported by:
     <a href="#PyInstaller.utils.osx">PyInstaller.utils.osx</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#asyncio.windows_events">asyncio.windows_events</a>
- &#8226;   <a href="#data.DataManager">data.DataManager</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#pefile">pefile</a>
  &#8226;   <a href="#random">random</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.more">setuptools._vendor.more_itertools.more</a>
  &#8226;   <a href="#statistics">statistics</a>
@@ -11165,9 +9696,9 @@ imported by:
  &#8226;   <a href="#cffi.vengine_gen">cffi.vengine_gen</a>
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#cgi">cgi</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
- &#8226;   <a href="#conf">conf</a>
  &#8226;   <a href="#configparser">configparser</a>
  &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#ctypes._aix">ctypes._aix</a>
@@ -11201,7 +9732,6 @@ imported by:
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#glob">glob</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
  &#8226;   <a href="#gzip">gzip</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#http.server">http.server</a>
@@ -12289,20 +10819,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#entities.Entity">entities.Entity</a>
- &#8226;   <a href="#entities.EntityLiving">entities.EntityLiving</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Item">entities.impl.Item</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
- &#8226;   <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.MouseDownEvent">event.impl.MouseDownEvent</a>
- &#8226;   <a href="#font.FontManager">font.FontManager</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIDead">guis.impl.GUIDead</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#handlers.handleMovement">handlers.handleMovement</a>
+    <a href="#font.FontManager">font.FontManager</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pygame._freetype">pygame._freetype</a>
  &#8226;   <a href="#pygame._numpysndarray">pygame._numpysndarray</a>
@@ -12346,10 +10863,6 @@ imported by:
  &#8226;   <a href="#pygame.time">pygame.time</a>
  &#8226;   <a href="#pygame.transform">pygame.transform</a>
  &#8226;   <a href="#pygame.version">pygame.version</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
- &#8226;   <a href="#ui.TextView">ui.TextView</a>
 
   </div>
 
@@ -12503,8 +11016,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#bindings">bindings</a>
- &#8226;   <a href="#main.py">main.py</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#pygame">pygame</a>
 
   </div>
@@ -12596,8 +11108,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#pygame">pygame</a>
+    <a href="#pygame">pygame</a>
  &#8226;   <a href="#pygame.sysfont">pygame.sysfont</a>
 
   </div>
@@ -13401,10 +11912,6 @@ imported by:
     <a href="#altgraph.GraphUtil">altgraph.GraphUtil</a>
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
- &#8226;   <a href="#entities.impl.Enemy">entities.impl.Enemy</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#event.impl.PlayerKillEntityEvent">event.impl.PlayerKillEntityEvent</a>
- &#8226;   <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.more">setuptools._vendor.more_itertools.more</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.recipes">setuptools._vendor.more_itertools.recipes</a>
@@ -13602,131 +12109,10 @@ imported by:
 
 <div class="node">
   <a name="rooms"></a>
-  <a target="code" href="-" type="text/plain"><tt>rooms</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#rooms.impl">rooms.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="rooms.Room"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/rooms/Room.py" type="text/plain"><tt>rooms.Room</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#entities.impl.Tile">entities.impl.Tile</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#math">math</a>
- &#8226;   <a href="#rooms">rooms</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="rooms.RoomManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/rooms/RoomManager.py" type="text/plain"><tt>rooms.RoomManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#event.impl.ChangeRoomEvent">event.impl.ChangeRoomEvent</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#rooms">rooms</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#guis.impl.GUIIngame">guis.impl.GUIIngame</a>
- &#8226;   <a href="#items.ItemManager">items.ItemManager</a>
- &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="rooms.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>rooms.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#rooms">rooms</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.impl.starGrove">rooms.impl.starGrove</a>
- &#8226;   <a href="#rooms.impl.tutorial">rooms.impl.tutorial</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="rooms.impl.starGrove"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/rooms/impl/starGrove.py" type="text/plain"><tt>rooms.impl.starGrove</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.impl.DungeonExit">entities.impl.DungeonExit</a>
- &#8226;   <a href="#entities.impl.Ref">entities.impl.Ref</a>
- &#8226;   <a href="#items.keys.impl.red">items.keys.impl.red</a>
- &#8226;   <a href="#items.weapons.impl.melee.Yoogi">items.weapons.impl.melee.Yoogi</a>
- &#8226;   <a href="#random">random</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#rooms.impl">rooms.impl</a>
-
-  </div>
-  <div class="import">
+  <a target="code" href="" type="text/plain"><tt>rooms</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="rooms.impl.tutorial"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/rooms/impl/tutorial.py" type="text/plain"><tt>rooms.impl.tutorial</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.impl.DungeonExit">entities.impl.DungeonExit</a>
- &#8226;   <a href="#entities.impl.Ref">entities.impl.Ref</a>
- &#8226;   <a href="#items.consumables.potions.impl.HPPLUS">items.consumables.potions.impl.HPPLUS</a>
- &#8226;   <a href="#items.consumables.potions.impl.Invincibility">items.consumables.potions.impl.Invincibility</a>
- &#8226;   <a href="#items.consumables.potions.impl.SpeedPLUS">items.consumables.potions.impl.SpeedPLUS</a>
- &#8226;   <a href="#items.consumables.potions.impl.StengthPLUS">items.consumables.potions.impl.StengthPLUS</a>
- &#8226;   <a href="#items.enchantments.impl.Inferno">items.enchantments.impl.Inferno</a>
- &#8226;   <a href="#items.keys.impl.red">items.keys.impl.red</a>
- &#8226;   <a href="#items.weapons.impl.melee.RottenSword">items.weapons.impl.melee.RottenSword</a>
- &#8226;   <a href="#items.weapons.impl.melee.Scythe">items.weapons.impl.melee.Scythe</a>
- &#8226;   <a href="#rooms.Room">rooms.Room</a>
- &#8226;   <a href="#rooms.impl">rooms.impl</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#event.impl.KeydownEvent">event.impl.KeydownEvent</a>
- &#8226;   <a href="#event.impl.PlayerExitDungeonEvent">event.impl.PlayerExitDungeonEvent</a>
- &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -13909,90 +12295,6 @@ imported by:
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills"></a>
-  <a target="code" href="-" type="text/plain"><tt>skills</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#skills.SkillsManager">skills.SkillsManager</a>
- &#8226;   <a href="#skills.impl">skills.impl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills.SkillsManager"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/skills/SkillsManager.py" type="text/plain"><tt>skills.SkillsManager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#skills">skills</a>
- &#8226;   <a href="#skills.impl.Protection">skills.impl.Protection</a>
- &#8226;   <a href="#skills.impl.Sharpifier">skills.impl.Sharpifier</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#enemies.Crawler">enemies.Crawler</a>
- &#8226;   <a href="#entities.impl.Player">entities.impl.Player</a>
- &#8226;   <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUISkillsMenu">guis.impl.GUISkillsMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills.impl"></a>
-  <a target="code" href="-" type="text/plain"><tt>skills.impl</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imports:
-    <a href="#skills">skills</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#skills.impl.Protection">skills.impl.Protection</a>
- &#8226;   <a href="#skills.impl.Sharpifier">skills.impl.Sharpifier</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills.impl.Protection"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/skills/impl/Protection.py" type="text/plain"><tt>skills.impl.Protection</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#skills.impl">skills.impl</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#skills.SkillsManager">skills.SkillsManager</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills.impl.Sharpifier"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/skills/impl/Sharpifier.py" type="text/plain"><tt>skills.impl.Sharpifier</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#skills.impl">skills.impl</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#skills.SkillsManager">skills.SkillsManager</a>
 
   </div>
 
@@ -15106,118 +13408,6 @@ imported by:
  &#8226;   <a href="#setuptools._vendor.packaging.utils">setuptools._vendor.packaging.utils</a>
  &#8226;   <a href="#setuptools._vendor.packaging.version">setuptools._vendor.packaging.version</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui"></a>
-  <a target="code" href="-" type="text/plain"><tt>ui</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#ui.Button">ui.Button</a>
- &#8226;   <a href="#ui.MiniMap">ui.MiniMap</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
- &#8226;   <a href="#ui.TextInput">ui.TextInput</a>
- &#8226;   <a href="#ui.TextView">ui.TextView</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui.Button"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ui/Button.py" type="text/plain"><tt>ui.Button</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#globals">globals</a>
- &#8226;   <a href="#ui">ui</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
- &#8226;   <a href="#ui.SkillsBar">ui.SkillsBar</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui.MiniMap"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ui/MiniMap.py" type="text/plain"><tt>ui.MiniMap</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#rooms.RoomManager">rooms.RoomManager</a>
- &#8226;   <a href="#ui">ui</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#rooms.Room">rooms.Room</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui.SkillsBar"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ui/SkillsBar.py" type="text/plain"><tt>ui.SkillsBar</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#ui">ui</a>
- &#8226;   <a href="#ui.Button">ui.Button</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#skills.impl.Protection">skills.impl.Protection</a>
- &#8226;   <a href="#skills.impl.Sharpifier">skills.impl.Sharpifier</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui.TextInput"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ui/TextInput.py" type="text/plain"><tt>ui.TextInput</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#ui">ui</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#guis.impl.GUICraftingMenu">guis.impl.GUICraftingMenu</a>
- &#8226;   <a href="#guis.impl.GUIEnchantingMenu">guis.impl.GUIEnchantingMenu</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="ui.TextView"></a>
-  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/ui/TextView.py" type="text/plain"><tt>ui.TextView</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#conf">conf</a>
- &#8226;   <a href="#pygame">pygame</a>
- &#8226;   <a href="#ui">ui</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#entities.impl.Player">entities.impl.Player</a>
 
   </div>
 
