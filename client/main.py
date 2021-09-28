@@ -1,4 +1,3 @@
-from client.items.weapons.Weapon import Weapon
 from client.guis.impl.GUIEnchantingMenu import GUIEnchantingMenu
 from client.crafting.CraftingManager import craftingmanager
 from client.crafting.impl.melee.Yoogi import Yoogi
@@ -11,16 +10,12 @@ from client.guis.impl.GUIIngame import GUIIngame
 from client.guis.impl.GUICompletedGame import GUICompletedGame
 from client.guis.impl.GUIEnterDungeon import GUIEnterDungeon
 from client.guis.impl.GUIMainMenu import GUIMainMenu
-from client.entities.impl.Tile import Tile
 from client.event.impl.MouseDownEvent import MouseDownEvent
 from client.event.impl.KeydownEvent import KeydownEvent
-from client.items.ItemManager import itemmanager
 from font.FontManager import FontManager
 from client.event.impl.PlayerExitDungeonEvent import PlayerExitDungeonEvent
 from client.rooms.RoomManager import roommanager
 from client.entities.impl.Player import Player
-import client.items.weapons.impl.melee as weapons
-import asyncio
 
 import data.DataManager as DataManager
 

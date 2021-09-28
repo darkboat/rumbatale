@@ -1,4 +1,4 @@
-from ability.Ability import Ability
+from client.ability.Ability import Ability
 
 from globals import globals
 import client_globals as cGlobals

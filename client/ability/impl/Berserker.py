@@ -1,5 +1,5 @@
-from ability.TimedPropertyChange import TimedPropertyChange
-from ability.Ability import Ability
+from client.ability.TimedPropertyChange import TimedPropertyChange
+from client.ability.Ability import Ability
 
 class Berserker(Ability):
     def __init__(self, ):
