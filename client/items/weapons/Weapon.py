@@ -1,4 +1,4 @@
-from entities.impl.Item import Item
+from client.entities.impl.Item import Item
 
 from globals import globals
 

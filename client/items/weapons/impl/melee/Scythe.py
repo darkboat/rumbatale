@@ -1,10 +1,10 @@
-from ability.impl.Reap import Reap
-from ability.impl.Berserker import Berserker
-from ability.impl.LifeSteal import LifeSteal
-from ability.impl.Shock import Shock
-from items.weapons.Weapon import Weapon
+from client.ability.impl.Reap import Reap
+from client.ability.impl.Berserker import Berserker
+from client.ability.impl.LifeSteal import LifeSteal
+from client.ability.impl.Shock import Shock
+from client.items.weapons.Weapon import Weapon
 
-from entities.StatBuilder import StatBuilderWeapon
+from client.entities.StatBuilder import StatBuilderWeapon
 
 class Scythe(Weapon):
     def __init__(self, x, y):

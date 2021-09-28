@@ -1,4 +1,4 @@
-from items.keys.Key import Key
+from client.items.keys.Key import Key
 
 class RedKey(Key):
     def __init__(self, x, y, canBePickedUp=False):

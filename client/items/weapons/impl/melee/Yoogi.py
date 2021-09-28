@@ -1,6 +1,6 @@
-from items.weapons.Weapon import Weapon
+from client.items.weapons.Weapon import Weapon
 
-from entities.StatBuilder import StatBuilderWeapon
+from client.entities.StatBuilder import StatBuilderWeapon
 
 class Yoogi(Weapon):
     def __init__(self, x, y):

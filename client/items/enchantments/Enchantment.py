@@ -1,6 +1,4 @@
-from entities.impl.Item import Item
-
-import globals
+from client.entities.impl.Item import Item
 
 class EnchantingBook(Item):
     def __init__(self, name, stats, types, pos):

@@ -1,4 +1,4 @@
-from entities.impl.Item import Item
+from client.entities.impl.Item import Item
 
 class Key(Item):
     def __init__(self, name, x, y, canBePickedUp=True):

@@ -71,14 +71,6 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\importlib\\__init__.py',
    'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('typing',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\typing.py',
-   'PYMODULE'),
   ('importlib._bootstrap',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\importlib\\_bootstrap.py',
@@ -90,6 +82,14 @@
   ('importlib.metadata',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\typing.py',
    'PYMODULE'),
   ('configparser',
    'C:\\Program '
@@ -855,17 +855,33 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
+  ('pkg_resources._vendor.packaging._structures',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('distutils.util',
+  ('pkg_resources._vendor.packaging',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\distutils\\util.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('distutils.filelist',
+  ('pkg_resources._vendor.packaging._compat',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\distutils\\filelist.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'C:\\Program '
@@ -877,29 +893,17 @@
   ('win32com.shell',
    'C:\\Users\\mikae\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\win32comext\\shell\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.packaging.version',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging._typing',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
+  ('pkg_resources._vendor.packaging.__about__',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'C:\\Program '
@@ -909,21 +913,17 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\uuid.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
+  ('pkg_resources._vendor.packaging.tags',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('distutils.util',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\distutils\\util.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('distutils.filelist',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\distutils\\filelist.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'C:\\Program '
@@ -941,13 +941,13 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\\lib\\_py_abc.py',
    'PYMODULE'),
   ('pygame',
    'C:\\Users\\mikae\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\site-packages\\pygame\\__init__.py',
@@ -1153,22 +1153,48 @@
   ('client.items.weapons.impl.melee',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\weapons\\impl\\melee\\__init__.py',
    'PYMODULE'),
+  ('client.items.weapons.impl.melee.RottenSword',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\weapons\\impl\\melee\\RottenSword.py',
+   'PYMODULE'),
+  ('client.entities.StatBuilder',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\StatBuilder.py',
+   'PYMODULE'),
+  ('client.entities',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\__init__.py',
+   'PYMODULE'),
+  ('client',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\__init__.py',
+   'PYMODULE'),
+  ('client.items.weapons.impl.melee.Yoogi',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\weapons\\impl\\melee\\Yoogi.py',
+   'PYMODULE'),
+  ('client.items.weapons.impl.melee.Scythe',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\weapons\\impl\\melee\\Scythe.py',
+   'PYMODULE'),
+  ('client.ability.impl.Shock',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\ability\\impl\\Shock.py',
+   'PYMODULE'),
+  ('client.ability.impl', '-', 'PYMODULE'),
+  ('client.ability', '-', 'PYMODULE'),
+  ('client.ability.impl.LifeSteal',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\ability\\impl\\LifeSteal.py',
+   'PYMODULE'),
+  ('client.ability.impl.Berserker',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\ability\\impl\\Berserker.py',
+   'PYMODULE'),
+  ('client.ability.impl.Reap',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\ability\\impl\\Reap.py',
+   'PYMODULE'),
   ('client.items.weapons.impl', '-', 'PYMODULE'),
   ('client.items.weapons', '-', 'PYMODULE'),
   ('client.items',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\__init__.py',
-   'PYMODULE'),
-  ('client',
-   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\__init__.py',
    'PYMODULE'),
   ('client.entities.impl.Player',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\impl\\Player.py',
    'PYMODULE'),
   ('client.entities.impl',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\impl\\__init__.py',
-   'PYMODULE'),
-  ('client.entities',
-   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\__init__.py',
    'PYMODULE'),
   ('client.rooms.RoomManager',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\rooms\\RoomManager.py',
@@ -1238,4 +1264,7 @@
    'PYMODULE'),
   ('client.items.weapons.Weapon',
    'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\items\\weapons\\Weapon.py',
+   'PYMODULE'),
+  ('client.entities.impl.Item',
+   'C:\\Users\\mikae\\Documents\\vscode\\python\\rumbatale\\client\\entities\\impl\\Item.py',
    'PYMODULE')])
