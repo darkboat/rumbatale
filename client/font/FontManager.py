@@ -3,7 +3,6 @@ import pygame
 
 class FontManager:
     def __init__(self):
-
         self.hudText = pygame.font.Font(FONT_DIR + "Roboto-Black.ttf", 25)
         self.inventoryItemText = pygame.font.Font(FONT_DIR + "Gluten-Thin.ttf", 20)
         self.titleText = pygame.font.Font(FONT_DIR + "SigmarOne-Regular.ttf", 35)
