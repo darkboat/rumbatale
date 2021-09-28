@@ -1,6 +1,6 @@
 from client.entities.impl.Item import Item
 
-from globals import globals
+from client.globals import globals
 
 class Weapon(Item):
     def __init__(self, name, stats, pos):
