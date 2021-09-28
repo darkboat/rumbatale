@@ -1,9 +1,7 @@
-from ui.Button import Button
+from client.ui.Button import Button
 import pygame
 
-import conf
-
-from globals import globals
+from client.globals import globals
 
 class SkillsBar:
     def __init__(self, name, max, firstUpgradePrice):

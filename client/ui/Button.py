@@ -1,4 +1,4 @@
-from globals import globals
+from client.globals import globals
 
 class Button:
     def __init__(self, fontmanager, x, y, w, h, text):

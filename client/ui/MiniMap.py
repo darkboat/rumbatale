@@ -1,8 +1,6 @@
-from rooms.RoomManager import roommanager
+from client.rooms.RoomManager import roommanager
 
-from globals import globals
-
-import conf
+import client.conf as conf
 
 import pygame
 

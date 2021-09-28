@@ -1,7 +1,6 @@
 import pygame
 
-from globals import globals
-import conf
+from client.globals import globals
 
 class TextInput:
     def __init__(self, x, y, w, h, prev):
