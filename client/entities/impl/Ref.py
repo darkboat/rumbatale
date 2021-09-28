@@ -1,6 +1,6 @@
-from entities.Entity import Entity
+from client.entities.Entity import Entity
 
-import conf
+import client.conf as conf
 
 class Ref(Entity):
     def __init__(self, x, y, refWidth, refHeight, color):

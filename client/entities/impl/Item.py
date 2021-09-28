@@ -1,9 +1,9 @@
 import pygame
 
-from globals import globals
-import conf
+from client.globals import globals
+import client.conf as conf
 
-from entities.Entity import Entity
+from client.entities.Entity import Entity
 
 class Item(Entity):
     def __init__(self, item_name, pos, canBePickedUp=True, loc=globals.items):

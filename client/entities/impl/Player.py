@@ -1,20 +1,20 @@
-from event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
-from ui.TextView import TextView
-from items.keys.impl.red import RedKey
-from entities.impl.Item import Item
-from skills.SkillsManager import skillsmanager
-from event.impl.PlayerKillEntityEvent import PlayerKillEntityEvent
-from items.weapons.Weapon import Weapon
-from entities.StatBuilder import StatBuilder
-from entities.EntityLiving import EntityLiving
+from client.event.impl.CurrentInventorySlotChangeEvent import CurrentInventorySlotChangeEvent
+from client.ui.TextView import TextView
+from client.items.keys.impl.red import RedKey
+from client.entities.impl.Item import Item
+from client.skills.SkillsManager import skillsmanager
+from client.event.impl.PlayerKillEntityEvent import PlayerKillEntityEvent
+from client.items.weapons.Weapon import Weapon
+from client.entities.StatBuilder import StatBuilder
+from client.entities.EntityLiving import EntityLiving
 
-import client_globals as cGlobals
+import client.client_globals as cGlobals
 
 import pygame
 from random import randrange
 
-from globals import globals
-import conf
+from client.globals import globals
+import client.conf as conf
 
 class Player(EntityLiving):
     def __init__(self):

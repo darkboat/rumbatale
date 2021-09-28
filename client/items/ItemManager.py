@@ -1,6 +1,6 @@
-from globals import globals
+from client.globals import globals
 
-from rooms.RoomManager import roommanager
+from client.rooms.RoomManager import roommanager
 
 class ItemManager:
     @staticmethod

@@ -1,10 +1,10 @@
 import json
 import pygame
 
-from globals import globals
-import conf
+from client.globals import globals
+import client.conf as conf
 
-import client_globals as cGlobals
+import client.client_globals as cGlobals
 
 class Entity:
     def __init__(self, pos, scale, speed, prev, cameraController, exit=globals):

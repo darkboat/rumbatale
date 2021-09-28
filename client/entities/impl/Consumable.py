@@ -1,4 +1,4 @@
-from entities.impl.Item import Item
+from client.entities.impl.Item import Item
 
 class Consumable(Item):
     def __init__(self, item_name, pos):

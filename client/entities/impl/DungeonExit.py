@@ -1,6 +1,6 @@
-from entities.Entity import Entity
+from client.entities.Entity import Entity
 
-import conf
+import client.conf as conf
 
 class DungeonExit(Entity):
     def __init__(self, x, y, tileWidth, tileHeight):

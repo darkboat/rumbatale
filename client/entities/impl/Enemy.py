@@ -1,10 +1,10 @@
-from entities.EntityLiving import EntityLiving
+from client.entities.EntityLiving import EntityLiving
 import pygame
 
-import client_globals as cGlobals
+import client.client_globals as cGlobals
 
-from globals import globals
-import conf
+from client.globals import globals
+import client.conf as conf
 
 import random
 

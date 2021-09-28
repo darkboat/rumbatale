@@ -1,7 +1,7 @@
-from entities.Entity import Entity
+from client.entities.Entity import Entity
 
-from globals import globals
-import conf
+from client.globals import globals
+import client.conf as conf
 
 import pygame
 
