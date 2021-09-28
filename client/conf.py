@@ -19,6 +19,8 @@ textInputSelectedOutline = (184, 184, 184)
 APPDATA = os.getenv("APPDATA")
 GAME_DIR = str(APPDATA) + "/.rumbatale"
 
+ROOT_DIR = GAME_DIR
+
 RESOURCE_DIR = GAME_DIR + "/resources"
 FONT_DIR = GAME_DIR + "/client/font/fonts"
 
