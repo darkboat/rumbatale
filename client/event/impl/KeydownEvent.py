@@ -6,7 +6,7 @@ from client.rooms.RoomManager import roommanager
 from client.event.Event import Event
 
 import client.bindings as bindings
-from globals import globals
+from client.globals import globals
 
 class KeydownEvent(Event):
     def __init__(self):
