@@ -330,28 +330,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'entities.StatBuilder'"></a>
-  <a target="code" href="" type="text/plain"><tt>'entities.StatBuilder'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'entities.impl'"></a>
-  <a target="code" href="" type="text/plain"><tt>'entities.impl'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="'java.lang'"></a>
   <a target="code" href="" type="text/plain"><tt>'java.lang'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -2730,6 +2708,7 @@ imported by:
  &#8226;   <a href="#client.client_globals">client.client_globals</a>
  &#8226;   <a href="#client.conf">client.conf</a>
  &#8226;   <a href="#client.crafting">client.crafting</a>
+ &#8226;   <a href="#client.drops">client.drops</a>
  &#8226;   <a href="#client.enemies">client.enemies</a>
  &#8226;   <a href="#client.entities">client.entities</a>
  &#8226;   <a href="#client.event">client.event</a>
@@ -2926,7 +2905,9 @@ imported by:
     <a href="#client.ability.impl.LifeSteal">client.ability.impl.LifeSteal</a>
  &#8226;   <a href="#client.ability.impl.Reap">client.ability.impl.Reap</a>
  &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
+ &#8226;   <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
  &#8226;   <a href="#client.entities.Entity">client.entities.Entity</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.PlayerExitDungeonEvent">client.event.impl.PlayerExitDungeonEvent</a>
 
@@ -2951,6 +2932,7 @@ imported by:
  &#8226;   <a href="#client.entities.Entity">client.entities.Entity</a>
  &#8226;   <a href="#client.entities.EntityLiving">client.entities.EntityLiving</a>
  &#8226;   <a href="#client.entities.impl.DungeonExit">client.entities.impl.DungeonExit</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.entities.impl.Ref">client.entities.impl.Ref</a>
@@ -3068,6 +3050,71 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="client.drops"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.drops</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.drops.presets">client.drops.presets</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.drops.presets"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.drops.presets</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.drops">client.drops</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.drops.presets.enemies">client.drops.presets.enemies</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.drops.presets.enemies"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.drops.presets.enemies</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.drops.presets">client.drops.presets</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.drops.presets.enemies.Crawler">client.drops.presets.enemies.Crawler</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.drops.presets.enemies.Crawler"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/drops/presets/enemies/Crawler.py" type="text/plain"><tt>client.drops.presets.enemies.Crawler</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.drops.presets.enemies">client.drops.presets.enemies</a>
+ &#8226;   <a href="#client.items">client.items</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="client.enemies"></a>
   <a target="code" href="-" type="text/plain"><tt>client.enemies</tt></a>
 <span class="moduletype">NamespacePackage</span>  <div class="import">
@@ -3088,13 +3135,12 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/enemies/Crawler.py" type="text/plain"><tt>client.enemies.Crawler</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'entities.StatBuilder'">'entities.StatBuilder'</a>
+    <a href="#client.client_globals">client.client_globals</a>
+ &#8226;   <a href="#client.drops.presets.enemies.Crawler">client.drops.presets.enemies.Crawler</a>
  &#8226;   <a href="#client.enemies">client.enemies</a>
- &#8226;   <a href="#client_globals">client_globals</a>
- &#8226;   <a href="#drops">drops</a>
- &#8226;   <a href="#entities">entities</a>
- &#8226;   <a href="#globals">globals</a>
- &#8226;   <a href="#skills">skills</a>
+ &#8226;   <a href="#client.entities.StatBuilder">client.entities.StatBuilder</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
+ &#8226;   <a href="#client.skills.SkillsManager">client.skills.SkillsManager</a>
 
   </div>
   <div class="import">
@@ -3163,7 +3209,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
 
   </div>
 
@@ -3179,7 +3226,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.items.weapons.impl.melee.RottenSword">client.items.weapons.impl.melee.RottenSword</a>
  &#8226;   <a href="#client.items.weapons.impl.melee.Scythe">client.items.weapons.impl.melee.Scythe</a>
  &#8226;   <a href="#client.items.weapons.impl.melee.Yoogi">client.items.weapons.impl.melee.Yoogi</a>
@@ -3200,6 +3248,7 @@ imports:
 imported by:
     <a href="#client.entities.impl.Consumable">client.entities.impl.Consumable</a>
  &#8226;   <a href="#client.entities.impl.DungeonExit">client.entities.impl.DungeonExit</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.entities.impl.Ref">client.entities.impl.Ref</a>
@@ -3241,6 +3290,28 @@ imports:
 imported by:
     <a href="#client.rooms.impl.starGrove">client.rooms.impl.starGrove</a>
  &#8226;   <a href="#client.rooms.impl.tutorial">client.rooms.impl.tutorial</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.entities.impl.Enemy"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/entities/impl/Enemy.py" type="text/plain"><tt>client.entities.impl.Enemy</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.client_globals">client.client_globals</a>
+ &#8226;   <a href="#client.conf">client.conf</a>
+ &#8226;   <a href="#client.entities.EntityLiving">client.entities.EntityLiving</a>
+ &#8226;   <a href="#client.entities.impl">client.entities.impl</a>
+ &#8226;   <a href="#client.globals">client.globals</a>
+ &#8226;   <a href="#pygame">pygame</a>
+ &#8226;   <a href="#random">random</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
 
   </div>
 
@@ -3529,6 +3600,7 @@ imported by:
  &#8226;   <a href="#client.ability.impl.Shock">client.ability.impl.Shock</a>
  &#8226;   <a href="#client.entities.Entity">client.entities.Entity</a>
  &#8226;   <a href="#client.entities.EntityLiving">client.entities.EntityLiving</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
@@ -3775,11 +3847,11 @@ imported by:
   <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/handlers/handleMovement.py" type="text/plain"><tt>client.handlers.handleMovement</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'entities.impl'">'entities.impl'</a>
- &#8226;   <a href="#bindings">bindings</a>
+    <a href="#bindings">bindings</a>
  &#8226;   <a href="#client.handlers">client.handlers</a>
  &#8226;   <a href="#client_globals">client_globals</a>
  &#8226;   <a href="#conf">conf</a>
+ &#8226;   <a href="#entities">entities</a>
  &#8226;   <a href="#event">event</a>
  &#8226;   <a href="#globals">globals</a>
  &#8226;   <a href="#guis">guis</a>
@@ -3805,7 +3877,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.items.ItemManager">client.items.ItemManager</a>
+    <a href="#client.drops.presets.enemies.Crawler">client.drops.presets.enemies.Crawler</a>
+ &#8226;   <a href="#client.items.ItemManager">client.items.ItemManager</a>
  &#8226;   <a href="#client.items.consumables">client.items.consumables</a>
  &#8226;   <a href="#client.items.enchantments">client.items.enchantments</a>
  &#8226;   <a href="#client.items.keys">client.items.keys</a>
@@ -4425,7 +4498,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
+    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
+ &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
 
   </div>
@@ -4600,8 +4674,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>client_globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
- &#8226;   <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
+    <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
 
   </div>
 
@@ -5907,17 +5980,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#pickle">pickle</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="drops"></a>
-  <a target="code" href="" type="text/plain"><tt>drops</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
 
   </div>
 
@@ -8909,7 +8971,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>entities</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
+    <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
 
   </div>
 
@@ -9305,8 +9367,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>globals</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
- &#8226;   <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
+    <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
 
   </div>
 
@@ -9630,7 +9691,7 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
- &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -9736,7 +9797,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#_distutils_hack">_distutils_hack</a>
- &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
@@ -9764,6 +9824,7 @@ imported by:
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
@@ -12596,6 +12657,7 @@ imports:
 imported by:
     <a href="#client.entities.Entity">client.entities.Entity</a>
  &#8226;   <a href="#client.entities.EntityLiving">client.entities.EntityLiving</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Item">client.entities.impl.Item</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
@@ -13698,6 +13760,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#altgraph.GraphUtil">altgraph.GraphUtil</a>
+ &#8226;   <a href="#client.entities.impl.Enemy">client.entities.impl.Enemy</a>
  &#8226;   <a href="#client.entities.impl.Player">client.entities.impl.Player</a>
  &#8226;   <a href="#client.rooms.impl.starGrove">client.rooms.impl.starGrove</a>
  &#8226;   <a href="#email.generator">email.generator</a>
@@ -14074,17 +14137,6 @@ imported by:
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="skills"></a>
-  <a target="code" href="" type="text/plain"><tt>skills</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#client.enemies.Crawler">client.enemies.Crawler</a>
 
   </div>
 

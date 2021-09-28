@@ -1,13 +1,8 @@
-from skills.SkillsManager import skillsmanager
-from entities.impl.Enemy import Enemy
-
-from entities.StatBuilder import StatBuilder
-
-from drops.presets.enemies.Crawler import drops as CrawlerDrops
-
-import client_globals as cGlobals
-
-from globals import globals
+from client.skills.SkillsManager import skillsmanager
+from client.entities.impl.Enemy import Enemy
+from client.entities.StatBuilder import StatBuilder
+from client.drops.presets.enemies.Crawler import drops as CrawlerDrops
+import client.client_globals as cGlobals
 
 class Crawler(Enemy):
     def __init__(self, pos):
