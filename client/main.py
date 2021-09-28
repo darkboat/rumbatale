@@ -17,8 +17,6 @@ from client.event.impl.PlayerExitDungeonEvent import PlayerExitDungeonEvent
 from client.rooms.RoomManager import roommanager
 from client.entities.impl.Player import Player
 
-import data.DataManager as DataManager
-
 # Rooms / Levels
 from rooms.impl.tutorial import Tutorial
 from rooms.impl.starGrove import StarGrove
