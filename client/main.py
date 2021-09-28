@@ -18,19 +18,19 @@ from client.rooms.RoomManager import roommanager
 from client.entities.impl.Player import Player
 
 # Rooms / Levels
-from rooms.impl.tutorial import Tutorial
-from rooms.impl.starGrove import StarGrove
+from client.rooms.impl.tutorial import Tutorial
+from client.rooms.impl.starGrove import StarGrove
 
-import conf
+import client.conf as conf
 
 import pygame
-from globals import globals
+from client.globals import globals
 
-from conf import screenwidth, screenheight
-from handlers.handleMovement import handleMovement
+from client.conf import screenwidth, screenheight
+from client.handlers.handleMovement import handleMovement
 
 # Entities
-from entities.impl.Player import Player
+from client.entities.impl.Player import Player
 
 def main():
     pygame.init()
