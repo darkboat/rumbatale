@@ -1,1 +1,1 @@
-from items.weapons.impl.melee import *
+from client.items.weapons.impl.melee import *
