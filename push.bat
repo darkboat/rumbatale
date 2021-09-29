@@ -2,7 +2,7 @@ cd client
 
 echo creating executable...
 
-pyinstaller --onefile -i C:\Users\mikae\Documents\vscode\python\rumbatale\resources\static\icon.ico main.spec
+pyinstaller --onefile --windowed --icon=C:\Users\mikae\Documents\vscode\python\rumbatale\resources\static\icon.ico main.spec
 
 cd ../installer
 
