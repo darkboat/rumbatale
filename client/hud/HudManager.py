@@ -10,7 +10,7 @@ class HudManager:
         self.hudmods.append(mod)
 
     def draw(self, screen):
-        print(1)
+        print(self.hudmods)
         for mod in self.hudmods:
             if mod.enabled:
                 mod.draw(screen)
