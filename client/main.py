@@ -16,6 +16,7 @@ from font.FontManager import FontManager
 from client.event.impl.PlayerExitDungeonEvent import PlayerExitDungeonEvent
 from client.rooms.RoomManager import roommanager
 from client.entities.impl.Player import Player
+from client.hud.HudManager import hudmanager
 
 # Rooms / Levels
 from client.rooms.impl.tutorial import Tutorial
@@ -163,6 +164,8 @@ def main():
             guimanager.setGUI(GUIMainMenu)
 
         guimanager.drawGUI(screen, fontmanager, screenwidth, screenheight, player, guimanager)
+
+        hudmanager.draw(screen)
 
         pygame.display.update()
 

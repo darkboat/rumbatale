@@ -40,6 +40,7 @@ imports:
  &#8226;   <a href="#client.guis.impl.GUIMainMenu">client.guis.impl.GUIMainMenu</a>
  &#8226;   <a href="#client.guis.impl.GUISkillsMenu">client.guis.impl.GUISkillsMenu</a>
  &#8226;   <a href="#client.handlers.handleMovement">client.handlers.handleMovement</a>
+ &#8226;   <a href="#client.hud.HudManager">client.hud.HudManager</a>
  &#8226;   <a href="#client.rooms.RoomManager">client.rooms.RoomManager</a>
  &#8226;   <a href="#client.rooms.impl.starGrove">client.rooms.impl.starGrove</a>
  &#8226;   <a href="#client.rooms.impl.tutorial">client.rooms.impl.tutorial</a>
@@ -2704,6 +2705,7 @@ imported by:
  &#8226;   <a href="#client.globals">client.globals</a>
  &#8226;   <a href="#client.guis">client.guis</a>
  &#8226;   <a href="#client.handlers">client.handlers</a>
+ &#8226;   <a href="#client.hud">client.hud</a>
  &#8226;   <a href="#client.items">client.items</a>
  &#8226;   <a href="#client.rooms">client.rooms</a>
  &#8226;   <a href="#client.skills">client.skills</a>
@@ -3871,6 +3873,91 @@ imports:
   <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.hud"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.hud</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client">client</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.hud.HudManager">client.hud.HudManager</a>
+ &#8226;   <a href="#client.hud.HudMod">client.hud.HudMod</a>
+ &#8226;   <a href="#client.hud.impl">client.hud.impl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.hud.HudManager"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/hud/HudManager.py" type="text/plain"><tt>client.hud.HudManager</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.hud">client.hud</a>
+ &#8226;   <a href="#client.hud.impl.AbilityHud">client.hud.impl.AbilityHud</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.hud.HudMod"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/hud/HudMod.py" type="text/plain"><tt>client.hud.HudMod</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.hud">client.hud</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.hud.impl.AbilityHud">client.hud.impl.AbilityHud</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.hud.impl"></a>
+  <a target="code" href="-" type="text/plain"><tt>client.hud.impl</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#client.hud">client.hud</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.hud.impl.AbilityHud">client.hud.impl.AbilityHud</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="client.hud.impl.AbilityHud"></a>
+  <a target="code" href="///C:/Users/mikae/Documents/vscode/python/rumbatale/client/hud/impl/AbilityHud.py" type="text/plain"><tt>client.hud.impl.AbilityHud</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#client.hud.HudMod">client.hud.HudMod</a>
+ &#8226;   <a href="#client.hud.impl">client.hud.impl</a>
+ &#8226;   <a href="#pygame">pygame</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#client.hud.HudManager">client.hud.HudManager</a>
 
   </div>
 
@@ -9635,6 +9722,7 @@ imports:
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -9768,6 +9856,7 @@ imported by:
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
@@ -12606,6 +12695,7 @@ imported by:
  &#8226;   <a href="#client.event.impl.KeydownEvent">client.event.impl.KeydownEvent</a>
  &#8226;   <a href="#client.guis.impl.GUIDead">client.guis.impl.GUIDead</a>
  &#8226;   <a href="#client.guis.impl.GUIEnchantingMenu">client.guis.impl.GUIEnchantingMenu</a>
+ &#8226;   <a href="#client.hud.impl.AbilityHud">client.hud.impl.AbilityHud</a>
  &#8226;   <a href="#client.ui.MiniMap">client.ui.MiniMap</a>
  &#8226;   <a href="#client.ui.SkillsBar">client.ui.SkillsBar</a>
  &#8226;   <a href="#client.ui.TextInput">client.ui.TextInput</a>
