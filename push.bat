@@ -2,7 +2,7 @@ cd client
 
 echo creating executable...
 
-pyinstaller --onefile -i C:\Users\mikae\Documents\vscode\python\rumbatale\resources\entities\items\Oblivion.png main.spec
+pyinstaller --onefile -i C:\Users\mikae\Documents\vscode\python\rumbatale\resources\static\icon.ico main.spec
 
 cd ../installer
 

@@ -1,1 +1,0 @@
-pyinstaller -c -F -i C:\Users\mikae\Documents\vscode\python\rumbatale\resources\entities\items\Oblivion.png main.spec
