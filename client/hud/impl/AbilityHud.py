@@ -8,5 +8,6 @@ class AbilityHud(HudMod):
         super().__init__("AbilityHud", 0, 0, 200, 100)
 
     def draw(self, screen):
+        print(1)
         print(super().x, super().y)
-        pygame.draw.rect(screen, (255, 255, 255), (super().x, super().y, super().w, super().h))
+        pygame.draw.rect(screen, (255, 255, 255), (super().x, super().y, super().w, super().h)) 
